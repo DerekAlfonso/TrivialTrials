@@ -276,12 +276,6 @@ class Game {
     return this.s.players.filter((p) => p.team === team);
   }
 
-  private teamOf(playerId: string): TeamId {
-    const t = this.player(playerId)?.team;
-    if (!t) throw new GameError('Player is not on a team');
-    return t;
-  }
-
   private isActiveInRound(id: string): boolean {
     const r = this.s.round;
     if (!r) return false;

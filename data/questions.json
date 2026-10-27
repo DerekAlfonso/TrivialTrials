@@ -1,0 +1,1884 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q001",
+      "text": "Name something people bring to the beach.",
+      "category": "Leisure",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Towel", "count": 32, "aliases": ["beach towel"] },
+        { "text": "Sunscreen", "count": 24, "aliases": ["sunblock", "suntan lotion", "lotion"] },
+        { "text": "Umbrella", "count": 13, "aliases": ["beach umbrella", "parasol"] },
+        { "text": "Cooler", "count": 9, "aliases": ["ice chest"] },
+        { "text": "Chair", "count": 7, "aliases": ["beach chair", "lawn chair"] },
+        { "text": "Sunglasses", "count": 5, "aliases": ["shades"] },
+        { "text": "Book", "count": 4, "aliases": ["novel", "magazine"] }
+      ]
+    },
+    {
+      "id": "q002",
+      "text": "Name something in your kitchen that makes noise.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Blender", "count": 28 },
+        { "text": "Dishwasher", "count": 21 },
+        { "text": "Microwave", "count": 17, "aliases": ["microwave beep"] },
+        { "text": "Refrigerator", "count": 12, "aliases": ["fridge"] },
+        { "text": "Garbage Disposal", "count": 8, "aliases": ["disposal"] },
+        { "text": "Coffee Maker", "count": 6, "aliases": ["coffee pot"] },
+        { "text": "Kettle", "count": 4, "aliases": ["tea kettle"] }
+      ]
+    },
+    {
+      "id": "q003",
+      "text": "Name a topping people put on pizza.",
+      "category": "Food",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Pepperoni", "count": 41 },
+        { "text": "Sausage", "count": 15 },
+        { "text": "Mushrooms", "count": 13, "aliases": ["mushroom"] },
+        { "text": "Extra Cheese", "count": 9, "aliases": ["cheese"] },
+        { "text": "Onions", "count": 6, "aliases": ["onion"] },
+        { "text": "Peppers", "count": 5, "aliases": ["green peppers", "bell peppers"] },
+        { "text": "Pineapple", "count": 4 }
+      ]
+    },
+    {
+      "id": "q004",
+      "text": "Name something people do to look busy at work.",
+      "category": "Work",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Type on Keyboard", "count": 27, "aliases": ["typing", "type"] },
+        { "text": "Carry Papers", "count": 19, "aliases": ["carry a folder", "shuffle papers"] },
+        { "text": "Talk on Phone", "count": 16, "aliases": ["fake phone call", "phone"] },
+        { "text": "Stare at Screen", "count": 12, "aliases": ["look at computer"] },
+        { "text": "Walk Around", "count": 10, "aliases": ["walk fast", "pace"] },
+        { "text": "Frown", "count": 5, "aliases": ["look serious"] }
+      ]
+    },
+    {
+      "id": "q005",
+      "text": "Name something people forget to pack for a trip.",
+      "category": "Travel",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Toothbrush", "count": 34 },
+        { "text": "Phone Charger", "count": 22, "aliases": ["charger"] },
+        { "text": "Socks", "count": 11 },
+        { "text": "Underwear", "count": 10 },
+        { "text": "Toothpaste", "count": 7 },
+        { "text": "Medicine", "count": 5, "aliases": ["pills", "medication"] },
+        { "text": "Pajamas", "count": 4, "aliases": ["pjs"] }
+      ]
+    },
+    {
+      "id": "q006",
+      "text": "Name a sport where players wear a helmet.",
+      "category": "Sports",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Football", "count": 39 },
+        { "text": "Hockey", "count": 22, "aliases": ["ice hockey"] },
+        { "text": "Baseball", "count": 14, "aliases": ["softball"] },
+        { "text": "Lacrosse", "count": 8 },
+        { "text": "Cycling", "count": 7, "aliases": ["biking", "bike racing"] },
+        { "text": "Skiing", "count": 5, "aliases": ["snowboarding"] },
+        { "text": "Racing", "count": 3, "aliases": ["car racing", "nascar"] }
+      ]
+    },
+    {
+      "id": "q007",
+      "text": "Name something people put on a Christmas tree.",
+      "category": "Holidays",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Lights", "count": 36, "aliases": ["christmas lights", "string lights"] },
+        { "text": "Ornaments", "count": 29, "aliases": ["balls", "baubles"] },
+        { "text": "Star", "count": 14 },
+        { "text": "Tinsel", "count": 8 },
+        { "text": "Angel", "count": 5 },
+        { "text": "Candy Canes", "count": 4, "aliases": ["candy cane"] }
+      ]
+    },
+    {
+      "id": "q008",
+      "text": "Name something kids like to collect.",
+      "category": "Kids",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Trading Cards", "count": 26, "aliases": ["cards", "pokemon cards", "baseball cards"] },
+        { "text": "Rocks", "count": 19, "aliases": ["stones"] },
+        { "text": "Stickers", "count": 15 },
+        { "text": "Toys", "count": 11, "aliases": ["action figures"] },
+        { "text": "Stuffed Animals", "count": 9, "aliases": ["plushies"] },
+        { "text": "Coins", "count": 7 },
+        { "text": "Shells", "count": 4, "aliases": ["seashells"] }
+      ]
+    },
+    {
+      "id": "q009",
+      "text": "Name a reason a dog might bark.",
+      "category": "Pets",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Stranger", "count": 33, "aliases": ["someone at the door", "intruder", "visitor"] },
+        { "text": "Mailman", "count": 21, "aliases": ["mail carrier", "postman"] },
+        { "text": "Hungry", "count": 14, "aliases": ["wants food"] },
+        { "text": "Another Dog", "count": 11, "aliases": ["other dogs"] },
+        { "text": "Squirrel", "count": 8, "aliases": ["cat", "animals"] },
+        { "text": "Wants Out", "count": 6, "aliases": ["needs to pee", "go outside"] }
+      ]
+    },
+    {
+      "id": "q010",
+      "text": "Name something people save up money to buy.",
+      "category": "Money",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Car", "count": 31, "aliases": ["new car", "vehicle"] },
+        { "text": "House", "count": 25, "aliases": ["home"] },
+        { "text": "Vacation", "count": 15, "aliases": ["trip"] },
+        { "text": "Engagement Ring", "count": 8, "aliases": ["ring", "wedding ring"] },
+        { "text": "Computer", "count": 7, "aliases": ["laptop"] },
+        { "text": "TV", "count": 5, "aliases": ["television", "big screen"] }
+      ]
+    },
+    {
+      "id": "q011",
+      "text": "Name something you might find in a car's glove box.",
+      "category": "Cars",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Registration", "count": 27 },
+        { "text": "Napkins", "count": 20, "aliases": ["tissues"] },
+        { "text": "Owner's Manual", "count": 16, "aliases": ["manual", "owners manual"] },
+        { "text": "Insurance Card", "count": 12, "aliases": ["insurance"] },
+        { "text": "Sunglasses", "count": 9, "aliases": ["shades"] },
+        { "text": "Flashlight", "count": 6 },
+        { "text": "Pen", "count": 4, "aliases": ["pens"] }
+      ]
+    },
+    {
+      "id": "q012",
+      "text": "Name something people buy at a hardware store.",
+      "category": "Shopping",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Nails", "count": 25 },
+        { "text": "Paint", "count": 21 },
+        { "text": "Hammer", "count": 15 },
+        { "text": "Screws", "count": 12 },
+        { "text": "Lumber", "count": 9, "aliases": ["wood"] },
+        { "text": "Light Bulbs", "count": 7, "aliases": ["bulbs"] },
+        { "text": "Tape", "count": 4, "aliases": ["duct tape"] }
+      ]
+    },
+    {
+      "id": "q013",
+      "text": "Name something people do when they have a cold.",
+      "category": "Health",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Drink Soup", "count": 30, "aliases": ["chicken soup", "eat soup", "soup"] },
+        { "text": "Sleep", "count": 22, "aliases": ["rest", "nap"] },
+        { "text": "Take Medicine", "count": 18, "aliases": ["cold medicine", "pills"] },
+        { "text": "Drink Fluids", "count": 11, "aliases": ["drink water", "drink tea", "tea"] },
+        { "text": "Blow Nose", "count": 8, "aliases": ["use tissues"] },
+        { "text": "Stay Home", "count": 5, "aliases": ["call in sick"] }
+      ]
+    },
+    {
+      "id": "q014",
+      "text": "Name something students keep in their backpack.",
+      "category": "School",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Books", "count": 29, "aliases": ["textbooks"] },
+        { "text": "Notebook", "count": 21, "aliases": ["notebooks", "binder"] },
+        { "text": "Pencils", "count": 17, "aliases": ["pencil", "pens", "pen"] },
+        { "text": "Lunch", "count": 11, "aliases": ["lunchbox", "snacks"] },
+        { "text": "Laptop", "count": 9, "aliases": ["computer", "tablet"] },
+        { "text": "Calculator", "count": 5 },
+        { "text": "Water Bottle", "count": 4, "aliases": ["water"] }
+      ]
+    },
+    {
+      "id": "q015",
+      "text": "Name something people do on a Saturday morning.",
+      "category": "Weekend",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Sleep In", "count": 35, "aliases": ["sleep", "sleep late"] },
+        { "text": "Eat Breakfast", "count": 18, "aliases": ["breakfast", "brunch", "pancakes"] },
+        { "text": "Clean House", "count": 14, "aliases": ["chores", "cleaning"] },
+        { "text": "Mow the Lawn", "count": 10, "aliases": ["yard work", "mow"] },
+        { "text": "Go Shopping", "count": 8, "aliases": ["errands", "grocery shopping"] },
+        { "text": "Exercise", "count": 6, "aliases": ["workout", "go for a run", "gym"] },
+        { "text": "Watch Cartoons", "count": 4, "aliases": ["watch tv"] }
+      ]
+    },
+    {
+      "id": "q016",
+      "text": "Name something people do on a first date.",
+      "category": "Romance",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Dinner", "count": 38, "aliases": ["eat", "go to dinner", "restaurant"] },
+        { "text": "Movie", "count": 22, "aliases": ["see a movie", "movies"] },
+        { "text": "Talk", "count": 12, "aliases": ["conversation"] },
+        { "text": "Coffee", "count": 9, "aliases": ["get coffee"] },
+        { "text": "Walk", "count": 7, "aliases": ["walk in the park"] },
+        { "text": "Drinks", "count": 5, "aliases": ["get drinks"] },
+        { "text": "Bowling", "count": 3 }
+      ]
+    },
+    {
+      "id": "q017",
+      "text": "Name something people do on their phone while waiting in line.",
+      "category": "Technology",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Social Media", "count": 34, "aliases": ["scroll", "facebook", "instagram"] },
+        { "text": "Text", "count": 24, "aliases": ["texting", "send messages"] },
+        { "text": "Play Games", "count": 15, "aliases": ["games"] },
+        { "text": "Check Email", "count": 11, "aliases": ["email"] },
+        { "text": "Read News", "count": 6, "aliases": ["news"] },
+        { "text": "Make a Call", "count": 4, "aliases": ["call someone", "phone call"] }
+      ]
+    },
+    {
+      "id": "q018",
+      "text": "Name something people do when it's really hot outside.",
+      "category": "Weather",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Swim", "count": 29, "aliases": ["go swimming", "pool", "go to the pool"] },
+        { "text": "Turn on AC", "count": 23, "aliases": ["air conditioning", "ac"] },
+        { "text": "Drink Water", "count": 15, "aliases": ["hydrate", "drink lots of water"] },
+        { "text": "Stay Inside", "count": 12, "aliases": ["stay indoors"] },
+        { "text": "Eat Ice Cream", "count": 9, "aliases": ["ice cream", "popsicle"] },
+        { "text": "Wear Shorts", "count": 5, "aliases": ["shorts"] }
+      ]
+    },
+    {
+      "id": "q019",
+      "text": "Name a musical instrument people learn as kids.",
+      "category": "Music & TV",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Piano", "count": 38, "aliases": ["keyboard"] },
+        { "text": "Guitar", "count": 20 },
+        { "text": "Recorder", "count": 13 },
+        { "text": "Violin", "count": 11 },
+        { "text": "Drums", "count": 7 },
+        { "text": "Flute", "count": 5 },
+        { "text": "Trumpet", "count": 3 }
+      ]
+    },
+    {
+      "id": "q020",
+      "text": "Name the room people spend the most time in.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Living Room", "count": 38, "aliases": ["family room", "den"] },
+        { "text": "Bedroom", "count": 33 },
+        { "text": "Kitchen", "count": 21 },
+        { "text": "Bathroom", "count": 5 }
+      ]
+    },
+    {
+      "id": "q021",
+      "text": "Name something people put on a hot dog.",
+      "category": "Food",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Mustard", "count": 37 },
+        { "text": "Ketchup", "count": 30 },
+        { "text": "Relish", "count": 12 },
+        { "text": "Onions", "count": 8, "aliases": ["onion"] },
+        { "text": "Chili", "count": 5 },
+        { "text": "Sauerkraut", "count": 3, "aliases": ["kraut"] },
+        { "text": "Cheese", "count": 2 }
+      ]
+    },
+    {
+      "id": "q022",
+      "text": "Name something people complain about at their job.",
+      "category": "Work",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Boss", "count": 31, "aliases": ["manager", "supervisor"] },
+        { "text": "Pay", "count": 26, "aliases": ["salary", "money", "low pay"] },
+        { "text": "Coworkers", "count": 14, "aliases": ["co-workers"] },
+        { "text": "Hours", "count": 11, "aliases": ["long hours", "schedule"] },
+        { "text": "Meetings", "count": 7 },
+        { "text": "Commute", "count": 5, "aliases": ["traffic"] }
+      ]
+    },
+    {
+      "id": "q023",
+      "text": "Name something that can make a flight unpleasant.",
+      "category": "Travel",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Turbulence", "count": 26, "aliases": ["bumpy ride"] },
+        { "text": "Crying Baby", "count": 22, "aliases": ["screaming kid", "baby", "crying kids"] },
+        { "text": "Delay", "count": 16, "aliases": ["delays", "late flight"] },
+        { "text": "Small Seats", "count": 12, "aliases": ["no legroom", "cramped seats"] },
+        { "text": "Bad Food", "count": 8, "aliases": ["airline food"] },
+        { "text": "Seat Kicker", "count": 6, "aliases": ["kicking seat"] },
+        { "text": "Snoring Neighbor", "count": 3, "aliases": ["snoring"] }
+      ]
+    },
+    {
+      "id": "q024",
+      "text": "Name something fans bring to a ballgame.",
+      "category": "Sports",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Glove", "count": 28, "aliases": ["baseball glove", "mitt"] },
+        { "text": "Foam Finger", "count": 17 },
+        { "text": "Sign", "count": 14, "aliases": ["poster", "banner"] },
+        { "text": "Hat", "count": 12, "aliases": ["cap", "team hat"] },
+        { "text": "Snacks", "count": 10, "aliases": ["peanuts", "food"] },
+        { "text": "Jersey", "count": 8, "aliases": ["team shirt"] },
+        { "text": "Seat Cushion", "count": 4, "aliases": ["cushion"] }
+      ]
+    },
+    {
+      "id": "q025",
+      "text": "Name something people do on New Year's Eve.",
+      "category": "Holidays",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Count Down", "count": 30, "aliases": ["countdown", "watch the ball drop"] },
+        { "text": "Party", "count": 25, "aliases": ["go to a party"] },
+        { "text": "Kiss", "count": 15, "aliases": ["kiss someone at midnight"] },
+        { "text": "Drink Champagne", "count": 12, "aliases": ["toast", "champagne", "drink"] },
+        { "text": "Fireworks", "count": 9, "aliases": ["set off fireworks"] },
+        { "text": "Make Resolutions", "count": 5, "aliases": ["resolutions"] }
+      ]
+    },
+    {
+      "id": "q026",
+      "text": "Name an excuse kids give for not doing their homework.",
+      "category": "Kids",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Dog Ate It", "count": 35, "aliases": ["the dog ate it", "dog"] },
+        { "text": "Forgot", "count": 24, "aliases": ["i forgot"] },
+        { "text": "Too Hard", "count": 13, "aliases": ["didn't understand it"] },
+        { "text": "Lost It", "count": 11, "aliases": ["lost"] },
+        { "text": "Was Sick", "count": 7, "aliases": ["sick"] },
+        { "text": "Left It at School", "count": 5, "aliases": ["left it in my locker"] }
+      ]
+    },
+    {
+      "id": "q027",
+      "text": "Name a pet that lives in a cage.",
+      "category": "Pets",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Bird", "count": 34, "aliases": ["parrot", "parakeet", "budgie"] },
+        { "text": "Hamster", "count": 31 },
+        { "text": "Guinea Pig", "count": 13 },
+        { "text": "Rabbit", "count": 9, "aliases": ["bunny"] },
+        { "text": "Mouse", "count": 5, "aliases": ["mice"] },
+        { "text": "Gerbil", "count": 3 },
+        { "text": "Ferret", "count": 2 }
+      ]
+    },
+    {
+      "id": "q028",
+      "text": "Name something people splurge on when they get a bonus.",
+      "category": "Money",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Vacation", "count": 24, "aliases": ["trip"] },
+        { "text": "Dinner Out", "count": 19, "aliases": ["nice dinner", "restaurant"] },
+        { "text": "Clothes", "count": 16, "aliases": ["new clothes", "shoes"] },
+        { "text": "Electronics", "count": 14, "aliases": ["tv", "new phone"] },
+        { "text": "Jewelry", "count": 10, "aliases": ["watch"] },
+        { "text": "Pay Bills", "count": 8, "aliases": ["bills", "debt"] },
+        { "text": "Car", "count": 4, "aliases": ["new car"] }
+      ]
+    },
+    {
+      "id": "q029",
+      "text": "Name a reason a car might not start.",
+      "category": "Cars",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Dead Battery", "count": 47, "aliases": ["battery"] },
+        { "text": "Out of Gas", "count": 21, "aliases": ["no gas", "empty tank"] },
+        { "text": "Bad Starter", "count": 10, "aliases": ["starter"] },
+        { "text": "Too Cold", "count": 8, "aliases": ["cold weather", "frozen"] },
+        { "text": "Alternator", "count": 5 },
+        { "text": "Wrong Key", "count": 3, "aliases": ["no key", "lost keys"] }
+      ]
+    },
+    {
+      "id": "q030",
+      "text": "Name something people buy in bulk.",
+      "category": "Shopping",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Toilet Paper", "count": 36, "aliases": ["tp"] },
+        { "text": "Paper Towels", "count": 19 },
+        { "text": "Water", "count": 12, "aliases": ["bottled water"] },
+        { "text": "Rice", "count": 9 },
+        { "text": "Snacks", "count": 8, "aliases": ["chips"] },
+        { "text": "Diapers", "count": 6 },
+        { "text": "Soap", "count": 4, "aliases": ["hand soap", "dish soap"] }
+      ]
+    },
+    {
+      "id": "q031",
+      "text": "Name something a doctor checks at a physical.",
+      "category": "Health",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Blood Pressure", "count": 33, "aliases": ["bp"] },
+        { "text": "Heart", "count": 22, "aliases": ["heartbeat", "heart rate", "pulse"] },
+        { "text": "Weight", "count": 16 },
+        { "text": "Reflexes", "count": 10, "aliases": ["knee"] },
+        { "text": "Ears", "count": 7 },
+        { "text": "Throat", "count": 5, "aliases": ["mouth", "tonsils"] },
+        { "text": "Eyes", "count": 3, "aliases": ["vision"] }
+      ]
+    },
+    {
+      "id": "q032",
+      "text": "Name the school subject kids find hardest.",
+      "category": "School",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Math", "count": 48, "aliases": ["algebra", "calculus", "geometry"] },
+        { "text": "Science", "count": 21, "aliases": ["chemistry", "physics", "biology"] },
+        { "text": "English", "count": 14, "aliases": ["writing", "grammar"] },
+        { "text": "History", "count": 11, "aliases": ["social studies"] }
+      ]
+    },
+    {
+      "id": "q033",
+      "text": "Name a chore people put off until the weekend.",
+      "category": "Weekend",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Laundry", "count": 36, "aliases": ["wash clothes"] },
+        { "text": "Mow the Lawn", "count": 18, "aliases": ["mowing", "yard work"] },
+        { "text": "Vacuum", "count": 14, "aliases": ["vacuuming"] },
+        { "text": "Clean Bathroom", "count": 11, "aliases": ["scrub the toilet", "bathroom"] },
+        { "text": "Dishes", "count": 8, "aliases": ["wash dishes"] },
+        { "text": "Grocery Shopping", "count": 6, "aliases": ["groceries"] },
+        { "text": "Dust", "count": 3, "aliases": ["dusting"] }
+      ]
+    },
+    {
+      "id": "q034",
+      "text": "Name a gift people give on Valentine's Day.",
+      "category": "Romance",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Flowers", "count": 33, "aliases": ["roses"] },
+        { "text": "Chocolate", "count": 29, "aliases": ["candy", "chocolates"] },
+        { "text": "Card", "count": 13, "aliases": ["valentine", "valentine card"] },
+        { "text": "Jewelry", "count": 11, "aliases": ["necklace", "ring"] },
+        { "text": "Teddy Bear", "count": 6, "aliases": ["stuffed animal"] },
+        { "text": "Dinner", "count": 4, "aliases": ["romantic dinner"] }
+      ]
+    },
+    {
+      "id": "q035",
+      "text": "Name something that runs on batteries.",
+      "category": "Technology",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Remote Control", "count": 30, "aliases": ["remote", "tv remote"] },
+        { "text": "Flashlight", "count": 22 },
+        { "text": "Phone", "count": 13, "aliases": ["cell phone"] },
+        { "text": "Toys", "count": 10, "aliases": ["toy"] },
+        { "text": "Clock", "count": 8, "aliases": ["wall clock", "alarm clock"] },
+        { "text": "Smoke Detector", "count": 6, "aliases": ["smoke alarm"] },
+        { "text": "Watch", "count": 4 }
+      ]
+    },
+    {
+      "id": "q036",
+      "text": "Name something you need when it snows.",
+      "category": "Weather",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Shovel", "count": 31, "aliases": ["snow shovel"] },
+        { "text": "Coat", "count": 24, "aliases": ["jacket", "winter coat"] },
+        { "text": "Boots", "count": 16, "aliases": ["snow boots"] },
+        { "text": "Gloves", "count": 12, "aliases": ["mittens"] },
+        { "text": "Hat", "count": 7, "aliases": ["beanie"] },
+        { "text": "Scarf", "count": 4 },
+        { "text": "Salt", "count": 3, "aliases": ["rock salt", "ice melt"] }
+      ]
+    },
+    {
+      "id": "q037",
+      "text": "Name a type of TV show people binge-watch.",
+      "category": "Music & TV",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Drama", "count": 26 },
+        { "text": "Comedy", "count": 21, "aliases": ["sitcom"] },
+        { "text": "Crime Show", "count": 17, "aliases": ["crime", "cop show", "mystery"] },
+        { "text": "Reality Show", "count": 13, "aliases": ["reality tv", "reality"] },
+        { "text": "Sci-Fi", "count": 8, "aliases": ["science fiction", "fantasy"] },
+        { "text": "Cooking Show", "count": 5, "aliases": ["cooking"] },
+        { "text": "Documentary", "count": 4, "aliases": ["docuseries"] }
+      ]
+    },
+    {
+      "id": "q038",
+      "text": "Name something people do at a campground.",
+      "category": "Leisure",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Campfire", "count": 28, "aliases": ["build a fire", "make a fire"] },
+        { "text": "Roast Marshmallows", "count": 20, "aliases": ["s'mores", "smores", "marshmallows"] },
+        { "text": "Hike", "count": 16, "aliases": ["hiking", "walk"] },
+        { "text": "Fish", "count": 11, "aliases": ["fishing"] },
+        { "text": "Sleep in a Tent", "count": 9, "aliases": ["pitch a tent", "tent"] },
+        { "text": "Tell Ghost Stories", "count": 6, "aliases": ["ghost stories", "stories"] },
+        { "text": "Swim", "count": 3, "aliases": ["swimming"] }
+      ]
+    },
+    {
+      "id": "q039",
+      "text": "Name something people lose in the couch cushions.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Remote", "count": 38, "aliases": ["remote control", "tv remote"] },
+        { "text": "Coins", "count": 24, "aliases": ["change", "money"] },
+        { "text": "Keys", "count": 12 },
+        { "text": "Phone", "count": 10, "aliases": ["cell phone"] },
+        { "text": "Food", "count": 7, "aliases": ["crumbs", "popcorn", "snacks"] },
+        { "text": "Pen", "count": 3, "aliases": ["pens"] }
+      ]
+    },
+    {
+      "id": "q040",
+      "text": "Name a food people eat with their hands.",
+      "category": "Food",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Pizza", "count": 27, "aliases": ["slice"] },
+        { "text": "Burger", "count": 21, "aliases": ["hamburger", "cheeseburger"] },
+        { "text": "Fried Chicken", "count": 14, "aliases": ["chicken wings", "wings", "chicken"] },
+        { "text": "Sandwich", "count": 12 },
+        { "text": "Tacos", "count": 9, "aliases": ["taco"] },
+        { "text": "Fries", "count": 7, "aliases": ["french fries"] },
+        { "text": "Hot Dog", "count": 5 }
+      ]
+    },
+    {
+      "id": "q041",
+      "text": "Name something you'd find on an office desk.",
+      "category": "Work",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Computer", "count": 32, "aliases": ["laptop", "monitor"] },
+        { "text": "Stapler", "count": 18 },
+        { "text": "Phone", "count": 13 },
+        { "text": "Pens", "count": 12, "aliases": ["pen", "pencils"] },
+        { "text": "Coffee Mug", "count": 9, "aliases": ["mug", "coffee cup"] },
+        { "text": "Family Photo", "count": 7, "aliases": ["picture", "photo"] },
+        { "text": "Calendar", "count": 4 }
+      ]
+    },
+    {
+      "id": "q042",
+      "text": "Name a reason someone might miss their flight.",
+      "category": "Travel",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Overslept", "count": 32, "aliases": ["slept in", "alarm didn't go off"] },
+        { "text": "Traffic", "count": 26, "aliases": ["stuck in traffic"] },
+        { "text": "Long Security Line", "count": 15, "aliases": ["security", "tsa"] },
+        { "text": "Got Lost", "count": 8, "aliases": ["wrong terminal", "wrong gate"] },
+        { "text": "Forgot Passport", "count": 7, "aliases": ["passport", "forgot id", "no id"] },
+        { "text": "Car Trouble", "count": 5, "aliases": ["flat tire"] }
+      ]
+    },
+    {
+      "id": "q043",
+      "text": "Name a sport played with a net.",
+      "category": "Sports",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Volleyball", "count": 32 },
+        { "text": "Tennis", "count": 29 },
+        { "text": "Basketball", "count": 13 },
+        { "text": "Badminton", "count": 9 },
+        { "text": "Soccer", "count": 7 },
+        { "text": "Hockey", "count": 4 },
+        { "text": "Ping Pong", "count": 3, "aliases": ["table tennis"] }
+      ]
+    },
+    {
+      "id": "q044",
+      "text": "Name something associated with Halloween.",
+      "category": "Holidays",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Costumes", "count": 30, "aliases": ["costume", "dress up"] },
+        { "text": "Candy", "count": 27, "aliases": ["treats"] },
+        { "text": "Pumpkins", "count": 15, "aliases": ["pumpkin", "jack-o'-lantern", "jack o lantern"] },
+        { "text": "Trick-or-Treating", "count": 11, "aliases": ["trick or treat"] },
+        { "text": "Witches", "count": 6, "aliases": ["witch"] },
+        { "text": "Ghosts", "count": 5, "aliases": ["ghost"] },
+        { "text": "Skeletons", "count": 3, "aliases": ["skeleton"] }
+      ]
+    },
+    {
+      "id": "q045",
+      "text": "Name something kids are afraid of.",
+      "category": "Kids",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "The Dark", "count": 37, "aliases": ["dark", "darkness"] },
+        { "text": "Monsters", "count": 21, "aliases": ["monster under the bed", "monster"] },
+        { "text": "Spiders", "count": 10, "aliases": ["bugs", "spider"] },
+        { "text": "Clowns", "count": 9, "aliases": ["clown"] },
+        { "text": "Thunder", "count": 8, "aliases": ["storms", "thunderstorm"] },
+        { "text": "Doctor", "count": 6, "aliases": ["shots", "needles"] },
+        { "text": "Dogs", "count": 3, "aliases": ["big dogs"] }
+      ]
+    },
+    {
+      "id": "q046",
+      "text": "Name a popular name for a dog.",
+      "category": "Pets",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Max", "count": 25 },
+        { "text": "Buddy", "count": 19 },
+        { "text": "Spot", "count": 14 },
+        { "text": "Rover", "count": 11 },
+        { "text": "Bella", "count": 9 },
+        { "text": "Lucy", "count": 7 },
+        { "text": "Rex", "count": 6 },
+        { "text": "Charlie", "count": 4 }
+      ]
+    },
+    {
+      "id": "q047",
+      "text": "Name a place people hide money at home.",
+      "category": "Money",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Mattress", "count": 30, "aliases": ["under the mattress"] },
+        { "text": "Sock Drawer", "count": 18, "aliases": ["sock", "drawer"] },
+        { "text": "Freezer", "count": 13, "aliases": ["refrigerator", "fridge"] },
+        { "text": "Cookie Jar", "count": 11, "aliases": ["jar"] },
+        { "text": "Safe", "count": 10 },
+        { "text": "Book", "count": 6, "aliases": ["inside a book"] },
+        { "text": "Shoe", "count": 4, "aliases": ["shoebox", "shoe box"] }
+      ]
+    },
+    {
+      "id": "q048",
+      "text": "Name something people do while stuck in traffic.",
+      "category": "Cars",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Listen to Music", "count": 31, "aliases": ["radio", "sing", "music"] },
+        { "text": "Honk", "count": 19, "aliases": ["honk the horn"] },
+        { "text": "Talk on Phone", "count": 15, "aliases": ["phone", "call someone"] },
+        { "text": "Yell", "count": 12, "aliases": ["get mad", "complain"] },
+        { "text": "Text", "count": 9, "aliases": ["texting"] },
+        { "text": "Eat", "count": 6, "aliases": ["snack"] },
+        { "text": "Podcast", "count": 4, "aliases": ["listen to a podcast", "audiobook"] }
+      ]
+    },
+    {
+      "id": "q049",
+      "text": "Name something people return to a store.",
+      "category": "Shopping",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Clothes", "count": 41, "aliases": ["shirt", "pants", "dress"] },
+        { "text": "Shoes", "count": 18 },
+        { "text": "Electronics", "count": 12, "aliases": ["tv", "phone"] },
+        { "text": "Gifts", "count": 10, "aliases": ["gift", "presents"] },
+        { "text": "Broken Items", "count": 7, "aliases": ["broken stuff", "defective"] },
+        { "text": "Toys", "count": 4 }
+      ]
+    },
+    {
+      "id": "q050",
+      "text": "Name a healthy snack.",
+      "category": "Health",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Apple", "count": 31, "aliases": ["apples", "fruit"] },
+        { "text": "Carrots", "count": 20, "aliases": ["carrot sticks", "baby carrots", "veggies"] },
+        { "text": "Nuts", "count": 14, "aliases": ["almonds", "peanuts"] },
+        { "text": "Yogurt", "count": 11 },
+        { "text": "Celery", "count": 8 },
+        { "text": "Banana", "count": 6 },
+        { "text": "Granola Bar", "count": 5, "aliases": ["granola"] }
+      ]
+    },
+    {
+      "id": "q051",
+      "text": "Name something a teacher writes on the board.",
+      "category": "School",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Homework", "count": 29, "aliases": ["assignment", "homework assignment"] },
+        { "text": "Date", "count": 20, "aliases": ["today's date"] },
+        { "text": "Math Problems", "count": 16, "aliases": ["equations", "problems"] },
+        { "text": "Their Name", "count": 12, "aliases": ["name", "teacher's name"] },
+        { "text": "Notes", "count": 10 },
+        { "text": "Spelling Words", "count": 5, "aliases": ["vocabulary", "vocab words"] }
+      ]
+    },
+    {
+      "id": "q052",
+      "text": "Name a place families go on a Sunday afternoon.",
+      "category": "Weekend",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Park", "count": 31 },
+        { "text": "Church", "count": 16 },
+        { "text": "Grandma's House", "count": 14, "aliases": ["grandparents", "relatives", "visit family"] },
+        { "text": "Mall", "count": 12, "aliases": ["shopping"] },
+        { "text": "Movies", "count": 9, "aliases": ["movie theater"] },
+        { "text": "Restaurant", "count": 8, "aliases": ["brunch", "out to eat"] },
+        { "text": "Zoo", "count": 5 }
+      ]
+    },
+    {
+      "id": "q053",
+      "text": "Name a place where people propose.",
+      "category": "Romance",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Restaurant", "count": 35, "aliases": ["dinner"] },
+        { "text": "Beach", "count": 19 },
+        { "text": "Park", "count": 12 },
+        { "text": "Home", "count": 10, "aliases": ["house"] },
+        { "text": "Sporting Event", "count": 8, "aliases": ["ballgame", "jumbotron"] },
+        { "text": "Mountaintop", "count": 6, "aliases": ["mountain", "on a hike"] },
+        { "text": "Eiffel Tower", "count": 4, "aliases": ["paris"] }
+      ]
+    },
+    {
+      "id": "q054",
+      "text": "Name an app people check first thing in the morning.",
+      "category": "Technology",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Email", "count": 26, "aliases": ["mail", "gmail"] },
+        { "text": "Weather", "count": 21 },
+        { "text": "Social Media", "count": 19, "aliases": ["facebook", "instagram"] },
+        { "text": "News", "count": 12 },
+        { "text": "Texts", "count": 10, "aliases": ["messages", "text messages"] },
+        { "text": "Calendar", "count": 4 }
+      ]
+    },
+    {
+      "id": "q055",
+      "text": "Name something that happens during a thunderstorm.",
+      "category": "Weather",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Lightning", "count": 37 },
+        { "text": "Thunder", "count": 25, "aliases": ["loud noise", "booming"] },
+        { "text": "Rain", "count": 14, "aliases": ["heavy rain"] },
+        { "text": "Power Goes Out", "count": 10, "aliases": ["power outage", "blackout"] },
+        { "text": "Wind", "count": 6, "aliases": ["strong winds"] },
+        { "text": "Hail", "count": 4 },
+        { "text": "Dog Hides", "count": 3, "aliases": ["scared dog", "pets hide"] }
+      ]
+    },
+    {
+      "id": "q056",
+      "text": "Name something people do while watching a movie at home.",
+      "category": "Music & TV",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Eat Popcorn", "count": 39, "aliases": ["popcorn", "snack", "eat"] },
+        { "text": "Fall Asleep", "count": 18, "aliases": ["sleep", "doze off"] },
+        { "text": "Cuddle", "count": 12, "aliases": ["snuggle"] },
+        { "text": "Check Phone", "count": 11, "aliases": ["phone", "scroll"] },
+        { "text": "Talk", "count": 7, "aliases": ["chat"] },
+        { "text": "Pause for Bathroom", "count": 5, "aliases": ["go to the bathroom", "bathroom"] }
+      ]
+    },
+    {
+      "id": "q057",
+      "text": "Name a board game families play together.",
+      "category": "Leisure",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Monopoly", "count": 38 },
+        { "text": "Scrabble", "count": 15 },
+        { "text": "Clue", "count": 11 },
+        { "text": "Sorry", "count": 9, "aliases": ["sorry!"] },
+        { "text": "Candy Land", "count": 8, "aliases": ["candyland"] },
+        { "text": "Checkers", "count": 7 },
+        { "text": "Chess", "count": 6 },
+        { "text": "Life", "count": 4, "aliases": ["the game of life", "game of life"] }
+      ]
+    },
+    {
+      "id": "q058",
+      "text": "Name something people do right after they get home from work.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Change Clothes", "count": 28, "aliases": ["get comfortable", "take off shoes"] },
+        { "text": "Sit on Couch", "count": 20, "aliases": ["relax", "sit down", "rest"] },
+        { "text": "Eat", "count": 16, "aliases": ["snack", "dinner"] },
+        { "text": "Watch TV", "count": 13, "aliases": ["tv"] },
+        { "text": "Take a Nap", "count": 9, "aliases": ["nap", "sleep"] },
+        { "text": "Shower", "count": 6, "aliases": ["take a shower"] },
+        { "text": "Pet the Dog", "count": 4, "aliases": ["walk the dog", "dog"] }
+      ]
+    },
+    {
+      "id": "q059",
+      "text": "Name a food people eat for breakfast.",
+      "category": "Food",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Eggs", "count": 34, "aliases": ["scrambled eggs", "omelet"] },
+        { "text": "Cereal", "count": 21 },
+        { "text": "Pancakes", "count": 15, "aliases": ["hotcakes", "waffles"] },
+        { "text": "Bacon", "count": 11 },
+        { "text": "Toast", "count": 8, "aliases": ["bread"] },
+        { "text": "Oatmeal", "count": 5, "aliases": ["oats"] },
+        { "text": "Bagel", "count": 3 }
+      ]
+    },
+    {
+      "id": "q060",
+      "text": "Name a job where you wear a uniform.",
+      "category": "Work",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Police Officer", "count": 30, "aliases": ["cop", "police"] },
+        { "text": "Nurse", "count": 17, "aliases": ["doctor"] },
+        { "text": "Firefighter", "count": 16, "aliases": ["fireman"] },
+        { "text": "Military", "count": 12, "aliases": ["soldier", "army"] },
+        { "text": "Mail Carrier", "count": 8, "aliases": ["mailman", "postal worker"] },
+        { "text": "Pilot", "count": 6 },
+        { "text": "Fast Food Worker", "count": 5, "aliases": ["fast food", "waiter"] }
+      ]
+    },
+    {
+      "id": "q061",
+      "text": "Name something people buy at an airport.",
+      "category": "Travel",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Snacks", "count": 25, "aliases": ["candy", "chips"] },
+        { "text": "Coffee", "count": 23 },
+        { "text": "Water", "count": 15, "aliases": ["bottled water"] },
+        { "text": "Magazine", "count": 13, "aliases": ["book", "magazines"] },
+        { "text": "Neck Pillow", "count": 9, "aliases": ["travel pillow", "pillow"] },
+        { "text": "Souvenirs", "count": 6, "aliases": ["souvenir", "gifts"] },
+        { "text": "Headphones", "count": 4, "aliases": ["earbuds"] }
+      ]
+    },
+    {
+      "id": "q062",
+      "text": "Name something a coach yells during a game.",
+      "category": "Sports",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Run", "count": 24, "aliases": ["hustle", "faster", "go"] },
+        { "text": "Defense", "count": 18 },
+        { "text": "Shoot", "count": 13, "aliases": ["shoot the ball"] },
+        { "text": "Timeout", "count": 12, "aliases": ["time out"] },
+        { "text": "Come On", "count": 11 },
+        { "text": "Good Job", "count": 9, "aliases": ["nice job", "way to go"] },
+        { "text": "Get Up", "count": 4 }
+      ]
+    },
+    {
+      "id": "q063",
+      "text": "Name a food served at Thanksgiving dinner.",
+      "category": "Holidays",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Turkey", "count": 52 },
+        { "text": "Stuffing", "count": 14, "aliases": ["dressing"] },
+        { "text": "Mashed Potatoes", "count": 11, "aliases": ["potatoes"] },
+        { "text": "Pumpkin Pie", "count": 8, "aliases": ["pie"] },
+        { "text": "Cranberry Sauce", "count": 6, "aliases": ["cranberries"] },
+        { "text": "Green Bean Casserole", "count": 4, "aliases": ["green beans"] },
+        { "text": "Rolls", "count": 3, "aliases": ["bread", "dinner rolls"] }
+      ]
+    },
+    {
+      "id": "q064",
+      "text": "Name something kids do on a long car ride.",
+      "category": "Kids",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Ask Are We There Yet", "count": 27, "aliases": ["are we there yet"] },
+        { "text": "Sleep", "count": 22, "aliases": ["nap"] },
+        { "text": "Play Games", "count": 15, "aliases": ["video games", "tablet", "ipad"] },
+        { "text": "Fight", "count": 12, "aliases": ["fight with siblings", "argue"] },
+        { "text": "Need Bathroom", "count": 9, "aliases": ["have to pee", "bathroom"] },
+        { "text": "Sing", "count": 6, "aliases": ["sing songs"] },
+        { "text": "Look Out Window", "count": 3, "aliases": ["look outside"] }
+      ]
+    },
+    {
+      "id": "q065",
+      "text": "Name something a cat does all day.",
+      "category": "Pets",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Sleep", "count": 48, "aliases": ["nap", "naps"] },
+        { "text": "Eat", "count": 15 },
+        { "text": "Groom Itself", "count": 11, "aliases": ["lick itself", "clean itself", "bathe"] },
+        { "text": "Play", "count": 9 },
+        { "text": "Stare Out Window", "count": 7, "aliases": ["look outside", "watch birds"] },
+        { "text": "Scratch Furniture", "count": 5, "aliases": ["scratch"] },
+        { "text": "Ignore You", "count": 3, "aliases": ["ignore owner"] }
+      ]
+    },
+    {
+      "id": "q066",
+      "text": "Name something that seems to get more expensive every year.",
+      "category": "Money",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Gas", "count": 33, "aliases": ["gasoline", "fuel"] },
+        { "text": "Groceries", "count": 24, "aliases": ["food"] },
+        { "text": "Rent", "count": 14, "aliases": ["housing", "mortgage"] },
+        { "text": "Tuition", "count": 9, "aliases": ["college", "school"] },
+        { "text": "Insurance", "count": 8, "aliases": ["health insurance"] },
+        { "text": "Cars", "count": 6, "aliases": ["car"] },
+        { "text": "Movie Tickets", "count": 4, "aliases": ["movies"] }
+      ]
+    },
+    {
+      "id": "q067",
+      "text": "Name a popular car color.",
+      "category": "Cars",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Black", "count": 31 },
+        { "text": "White", "count": 27 },
+        { "text": "Silver", "count": 21, "aliases": ["gray", "grey"] },
+        { "text": "Red", "count": 15 }
+      ]
+    },
+    {
+      "id": "q068",
+      "text": "Name something sold at a farmers market.",
+      "category": "Shopping",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Vegetables", "count": 28, "aliases": ["veggies", "tomatoes", "corn"] },
+        { "text": "Fruit", "count": 22, "aliases": ["berries", "apples"] },
+        { "text": "Honey", "count": 13 },
+        { "text": "Flowers", "count": 10 },
+        { "text": "Eggs", "count": 8 },
+        { "text": "Bread", "count": 7, "aliases": ["baked goods"] },
+        { "text": "Jam", "count": 5, "aliases": ["jelly", "preserves"] }
+      ]
+    },
+    {
+      "id": "q069",
+      "text": "Name something people do to help themselves fall asleep.",
+      "category": "Health",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Count Sheep", "count": 28, "aliases": ["counting sheep"] },
+        { "text": "Read", "count": 22, "aliases": ["read a book"] },
+        { "text": "Drink Warm Milk", "count": 13, "aliases": ["warm milk", "tea", "milk"] },
+        { "text": "Watch TV", "count": 12, "aliases": ["tv"] },
+        { "text": "Take Medicine", "count": 9, "aliases": ["sleeping pill", "melatonin"] },
+        { "text": "Listen to Music", "count": 7, "aliases": ["music", "white noise"] },
+        { "text": "Meditate", "count": 3, "aliases": ["deep breathing"] }
+      ]
+    },
+    {
+      "id": "q070",
+      "text": "Name something you might find in a teacher's desk drawer.",
+      "category": "School",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Red Pen", "count": 25, "aliases": ["pens", "red pens"] },
+        { "text": "Candy", "count": 18, "aliases": ["treats", "snacks"] },
+        { "text": "Confiscated Phone", "count": 14, "aliases": ["phones", "confiscated stuff"] },
+        { "text": "Stapler", "count": 12 },
+        { "text": "Tissues", "count": 10, "aliases": ["kleenex"] },
+        { "text": "Paper Clips", "count": 8, "aliases": ["paperclips"] },
+        { "text": "Aspirin", "count": 5, "aliases": ["medicine", "pain reliever"] }
+      ]
+    },
+    {
+      "id": "q071",
+      "text": "Name something people do at a backyard barbecue.",
+      "category": "Weekend",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Grill", "count": 30, "aliases": ["cook", "grilling", "barbecue"] },
+        { "text": "Eat", "count": 24, "aliases": ["eat burgers"] },
+        { "text": "Drink", "count": 13, "aliases": ["drink soda", "drink lemonade"] },
+        { "text": "Play Games", "count": 11, "aliases": ["cornhole", "horseshoes", "frisbee"] },
+        { "text": "Swim", "count": 8, "aliases": ["pool"] },
+        { "text": "Talk", "count": 6, "aliases": ["socialize", "chat"] },
+        { "text": "Listen to Music", "count": 4, "aliases": ["music"] }
+      ]
+    },
+    {
+      "id": "q072",
+      "text": "Name something couples argue about.",
+      "category": "Romance",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Money", "count": 34, "aliases": ["finances", "bills"] },
+        { "text": "Chores", "count": 20, "aliases": ["housework", "cleaning"] },
+        { "text": "In-Laws", "count": 13, "aliases": ["family", "mother-in-law"] },
+        { "text": "Kids", "count": 10, "aliases": ["children", "parenting"] },
+        { "text": "TV Remote", "count": 8, "aliases": ["remote", "what to watch"] },
+        { "text": "Where to Eat", "count": 7, "aliases": ["dinner", "restaurant"] },
+        { "text": "Thermostat", "count": 4, "aliases": ["temperature"] }
+      ]
+    },
+    {
+      "id": "q073",
+      "text": "Name a reason people buy a new phone.",
+      "category": "Technology",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Broken", "count": 34, "aliases": ["cracked screen", "broke it"] },
+        { "text": "Old Phone Slow", "count": 18, "aliases": ["slow", "too old"] },
+        { "text": "Battery Dies", "count": 15, "aliases": ["bad battery", "battery"] },
+        { "text": "New Model", "count": 13, "aliases": ["upgrade", "latest model"] },
+        { "text": "Lost It", "count": 9, "aliases": ["lost phone", "stolen"] },
+        { "text": "Better Camera", "count": 5, "aliases": ["camera"] }
+      ]
+    },
+    {
+      "id": "q074",
+      "text": "Name something that can get ruined by rain.",
+      "category": "Weather",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Picnic", "count": 26 },
+        { "text": "Hair", "count": 22, "aliases": ["hairdo", "hairstyle"] },
+        { "text": "Wedding", "count": 13, "aliases": ["outdoor wedding"] },
+        { "text": "Ballgame", "count": 12, "aliases": ["game", "baseball game"] },
+        { "text": "Parade", "count": 9 },
+        { "text": "Shoes", "count": 7, "aliases": ["suede shoes"] },
+        { "text": "Barbecue", "count": 5, "aliases": ["cookout", "bbq"] }
+      ]
+    },
+    {
+      "id": "q075",
+      "text": "Name a reason people sing in the shower.",
+      "category": "Music & TV",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Good Acoustics", "count": 31, "aliases": ["sounds good", "echo"] },
+        { "text": "Nobody Can Hear", "count": 22, "aliases": ["alone", "privacy", "no one listening"] },
+        { "text": "Happy", "count": 14, "aliases": ["good mood"] },
+        { "text": "Habit", "count": 11 },
+        { "text": "Pass the Time", "count": 9, "aliases": ["bored", "boredom"] },
+        { "text": "Practice", "count": 5, "aliases": ["warm up"] }
+      ]
+    },
+    {
+      "id": "q076",
+      "text": "Name something people do at an amusement park.",
+      "category": "Leisure",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Ride Roller Coasters", "count": 33, "aliases": ["roller coasters", "rides", "ride rides"] },
+        { "text": "Eat Junk Food", "count": 18, "aliases": ["eat", "cotton candy", "funnel cake"] },
+        { "text": "Play Games", "count": 14, "aliases": ["carnival games"] },
+        { "text": "Wait in Line", "count": 13, "aliases": ["lines"] },
+        { "text": "Win Prizes", "count": 8, "aliases": ["prizes", "win a stuffed animal"] },
+        { "text": "Get Sick", "count": 5, "aliases": ["throw up"] },
+        { "text": "Take Pictures", "count": 3, "aliases": ["photos"] }
+      ]
+    },
+    {
+      "id": "q077",
+      "text": "Name something people keep in their garage besides a car.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Tools", "count": 34 },
+        { "text": "Bikes", "count": 17, "aliases": ["bicycle", "bicycles"] },
+        { "text": "Lawn Mower", "count": 14, "aliases": ["mower"] },
+        { "text": "Boxes", "count": 11, "aliases": ["storage", "junk"] },
+        { "text": "Freezer", "count": 8, "aliases": ["extra fridge", "refrigerator"] },
+        { "text": "Sports Gear", "count": 6, "aliases": ["balls", "sports equipment"] },
+        { "text": "Holiday Decorations", "count": 4, "aliases": ["christmas decorations", "decorations"] }
+      ]
+    },
+    {
+      "id": "q078",
+      "text": "Name a food that's hard to eat neatly.",
+      "category": "Food",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Spaghetti", "count": 31, "aliases": ["pasta", "noodles"] },
+        { "text": "Ribs", "count": 19, "aliases": ["bbq ribs"] },
+        { "text": "Tacos", "count": 14, "aliases": ["taco"] },
+        { "text": "Corn on the Cob", "count": 10, "aliases": ["corn"] },
+        { "text": "Sloppy Joe", "count": 9, "aliases": ["sloppy joes"] },
+        { "text": "Burger", "count": 7, "aliases": ["hamburger"] },
+        { "text": "Watermelon", "count": 5 }
+      ]
+    },
+    {
+      "id": "q079",
+      "text": "Name something people bring to a job interview.",
+      "category": "Work",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Resume", "count": 54, "aliases": ["cv", "copy of resume"] },
+        { "text": "References", "count": 14, "aliases": ["reference list"] },
+        { "text": "Pen", "count": 11 },
+        { "text": "Portfolio", "count": 9, "aliases": ["folder"] },
+        { "text": "ID", "count": 5, "aliases": ["identification", "license"] }
+      ]
+    },
+    {
+      "id": "q080",
+      "text": "Name a place people go on their honeymoon.",
+      "category": "Travel",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Hawaii", "count": 32 },
+        { "text": "Paris", "count": 17, "aliases": ["france"] },
+        { "text": "Caribbean", "count": 14, "aliases": ["jamaica", "bahamas"] },
+        { "text": "Mexico", "count": 11, "aliases": ["cancun"] },
+        { "text": "Italy", "count": 8, "aliases": ["rome", "venice"] },
+        { "text": "Las Vegas", "count": 7, "aliases": ["vegas"] },
+        { "text": "Cruise", "count": 5 }
+      ]
+    },
+    {
+      "id": "q081",
+      "text": "Name something a golfer carries in their bag.",
+      "category": "Sports",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Clubs", "count": 37, "aliases": ["golf clubs", "putter", "driver"] },
+        { "text": "Golf Balls", "count": 27, "aliases": ["balls"] },
+        { "text": "Tees", "count": 13, "aliases": ["tee"] },
+        { "text": "Glove", "count": 9 },
+        { "text": "Towel", "count": 6 },
+        { "text": "Scorecard", "count": 4, "aliases": ["pencil"] }
+      ]
+    },
+    {
+      "id": "q082",
+      "text": "Name something people do on the Fourth of July.",
+      "category": "Holidays",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Watch Fireworks", "count": 41, "aliases": ["fireworks"] },
+        { "text": "Barbecue", "count": 24, "aliases": ["cookout", "grill", "bbq"] },
+        { "text": "Go to a Parade", "count": 10, "aliases": ["parade"] },
+        { "text": "Go to the Lake", "count": 8, "aliases": ["lake", "beach", "swim"] },
+        { "text": "Wave a Flag", "count": 7, "aliases": ["flag", "fly the flag"] },
+        { "text": "Picnic", "count": 5 }
+      ]
+    },
+    {
+      "id": "q083",
+      "text": "Name something kids beg for at the grocery store.",
+      "category": "Kids",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Candy", "count": 41, "aliases": ["chocolate", "gum"] },
+        { "text": "Cereal", "count": 18, "aliases": ["sugary cereal"] },
+        { "text": "Cookies", "count": 12 },
+        { "text": "Toys", "count": 10, "aliases": ["toy"] },
+        { "text": "Ice Cream", "count": 8 },
+        { "text": "Chips", "count": 5 },
+        { "text": "Soda", "count": 3, "aliases": ["pop", "juice"] }
+      ]
+    },
+    {
+      "id": "q084",
+      "text": "Name a trick people teach their dog.",
+      "category": "Pets",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Sit", "count": 40 },
+        { "text": "Shake", "count": 20, "aliases": ["shake hands", "paw", "give paw"] },
+        { "text": "Roll Over", "count": 15 },
+        { "text": "Play Dead", "count": 9 },
+        { "text": "Fetch", "count": 7 },
+        { "text": "Speak", "count": 5, "aliases": ["bark"] },
+        { "text": "Stay", "count": 3 }
+      ]
+    },
+    {
+      "id": "q085",
+      "text": "Name a way people earn extra cash on the side.",
+      "category": "Money",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Babysitting", "count": 22, "aliases": ["babysit", "nanny"] },
+        { "text": "Yard Sale", "count": 20, "aliases": ["garage sale", "sell stuff"] },
+        { "text": "Rideshare Driving", "count": 15, "aliases": ["uber", "lyft", "drive for uber"] },
+        { "text": "Delivering Food", "count": 11, "aliases": ["doordash", "food delivery"] },
+        { "text": "Pet Sitting", "count": 9, "aliases": ["dog walking", "walk dogs"] },
+        { "text": "Tutoring", "count": 8, "aliases": ["tutor"] },
+        { "text": "Mowing Lawns", "count": 6, "aliases": ["lawn mowing", "yard work"] }
+      ]
+    },
+    {
+      "id": "q086",
+      "text": "Name something people hang from their rearview mirror.",
+      "category": "Cars",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Air Freshener", "count": 46, "aliases": ["tree", "pine tree"] },
+        { "text": "Fuzzy Dice", "count": 19, "aliases": ["dice"] },
+        { "text": "Rosary", "count": 11, "aliases": ["cross", "beads"] },
+        { "text": "Parking Pass", "count": 8, "aliases": ["parking tag"] },
+        { "text": "Graduation Tassel", "count": 6, "aliases": ["tassel"] },
+        { "text": "Sunglasses", "count": 4 }
+      ]
+    },
+    {
+      "id": "q087",
+      "text": "Name something people buy at a gas station besides gas.",
+      "category": "Shopping",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Snacks", "count": 27, "aliases": ["chips", "candy"] },
+        { "text": "Drinks", "count": 23, "aliases": ["soda", "water", "pop"] },
+        { "text": "Coffee", "count": 13 },
+        { "text": "Lottery Tickets", "count": 12, "aliases": ["lottery", "scratchers"] },
+        { "text": "Ice", "count": 8, "aliases": ["bag of ice"] },
+        { "text": "Gum", "count": 6 },
+        { "text": "Car Wash", "count": 4 }
+      ]
+    },
+    {
+      "id": "q088",
+      "text": "Name something people give up to get healthier.",
+      "category": "Health",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Soda", "count": 29, "aliases": ["pop", "sugary drinks"] },
+        { "text": "Junk Food", "count": 23, "aliases": ["fast food", "chips"] },
+        { "text": "Sweets", "count": 16, "aliases": ["sugar", "candy", "dessert"] },
+        { "text": "Smoking", "count": 13, "aliases": ["cigarettes"] },
+        { "text": "Fried Food", "count": 7, "aliases": ["fries"] },
+        { "text": "Late Nights", "count": 4, "aliases": ["staying up late"] }
+      ]
+    },
+    {
+      "id": "q089",
+      "text": "Name something kids trade at lunch.",
+      "category": "School",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Cookies", "count": 30, "aliases": ["cookie"] },
+        { "text": "Chips", "count": 21 },
+        { "text": "Fruit", "count": 13, "aliases": ["apple", "orange"] },
+        { "text": "Sandwich", "count": 12 },
+        { "text": "Candy", "count": 10 },
+        { "text": "Juice Box", "count": 6, "aliases": ["juice"] },
+        { "text": "Pudding", "count": 4, "aliases": ["pudding cup"] }
+      ]
+    },
+    {
+      "id": "q090",
+      "text": "Name a weekend activity that requires a ticket.",
+      "category": "Weekend",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Movie", "count": 39, "aliases": ["movies", "cinema"] },
+        { "text": "Concert", "count": 22, "aliases": ["show"] },
+        { "text": "Ballgame", "count": 14, "aliases": ["sports game", "game"] },
+        { "text": "Play", "count": 9, "aliases": ["theater", "musical"] },
+        { "text": "Museum", "count": 6 },
+        { "text": "Amusement Park", "count": 5, "aliases": ["theme park"] },
+        { "text": "Zoo", "count": 3 }
+      ]
+    },
+    {
+      "id": "q091",
+      "text": "Name something people do to get ready for a big date.",
+      "category": "Romance",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Shower", "count": 32, "aliases": ["take a shower", "bathe"] },
+        { "text": "Pick an Outfit", "count": 21, "aliases": ["get dressed", "change clothes", "dress up"] },
+        { "text": "Do Hair", "count": 15, "aliases": ["fix hair", "haircut"] },
+        { "text": "Put on Cologne", "count": 11, "aliases": ["perfume", "cologne"] },
+        { "text": "Brush Teeth", "count": 8, "aliases": ["mouthwash"] },
+        { "text": "Makeup", "count": 6, "aliases": ["put on makeup"] },
+        { "text": "Shave", "count": 4 }
+      ]
+    },
+    {
+      "id": "q092",
+      "text": "Name something people misplace around the house.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Keys", "count": 39, "aliases": ["car keys"] },
+        { "text": "Phone", "count": 24, "aliases": ["cell phone"] },
+        { "text": "Remote", "count": 13, "aliases": ["remote control"] },
+        { "text": "Glasses", "count": 10, "aliases": ["reading glasses", "sunglasses"] },
+        { "text": "Wallet", "count": 7, "aliases": ["purse"] },
+        { "text": "Charger", "count": 4, "aliases": ["phone charger"] }
+      ]
+    },
+    {
+      "id": "q093",
+      "text": "Name a kind of weather people hate.",
+      "category": "Weather",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Rain", "count": 28, "aliases": ["rainy"] },
+        { "text": "Snow", "count": 21, "aliases": ["blizzard", "snowy"] },
+        { "text": "Humidity", "count": 16, "aliases": ["humid", "muggy"] },
+        { "text": "Extreme Heat", "count": 13, "aliases": ["hot", "heat wave"] },
+        { "text": "Wind", "count": 8, "aliases": ["windy"] },
+        { "text": "Ice", "count": 6, "aliases": ["icy", "sleet", "freezing rain"] },
+        { "text": "Fog", "count": 3, "aliases": ["foggy"] }
+      ]
+    },
+    {
+      "id": "q094",
+      "text": "Name a reason people turn off a TV show.",
+      "category": "Music & TV",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Boring", "count": 36, "aliases": ["bored", "dull"] },
+        { "text": "Bedtime", "count": 18, "aliases": ["tired", "going to bed", "sleep"] },
+        { "text": "Too Many Ads", "count": 14, "aliases": ["commercials", "ads"] },
+        { "text": "Bad Acting", "count": 10 },
+        { "text": "Too Violent", "count": 8, "aliases": ["violence", "gory"] },
+        { "text": "Kids Walk In", "count": 5, "aliases": ["kids in the room"] },
+        { "text": "Spoilers", "count": 3 }
+      ]
+    },
+    {
+      "id": "q095",
+      "text": "Name a hobby people take up after retiring.",
+      "category": "Leisure",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Golf", "count": 33 },
+        { "text": "Gardening", "count": 24, "aliases": ["garden"] },
+        { "text": "Fishing", "count": 14 },
+        { "text": "Travel", "count": 10, "aliases": ["traveling"] },
+        { "text": "Knitting", "count": 7, "aliases": ["crocheting", "sewing"] },
+        { "text": "Painting", "count": 5, "aliases": ["art"] },
+        { "text": "Woodworking", "count": 4, "aliases": ["carpentry"] }
+      ]
+    },
+    {
+      "id": "q096",
+      "text": "Name something people decorate their front door with.",
+      "category": "Home",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Wreath", "count": 46 },
+        { "text": "Welcome Sign", "count": 15, "aliases": ["sign"] },
+        { "text": "Doormat", "count": 12, "aliases": ["welcome mat", "mat"] },
+        { "text": "Seasonal Flag", "count": 8, "aliases": ["flag"] },
+        { "text": "Pumpkins", "count": 6, "aliases": ["pumpkin"] },
+        { "text": "Door Knocker", "count": 5, "aliases": ["knocker"] },
+        { "text": "Lights", "count": 3 }
+      ]
+    },
+    {
+      "id": "q097",
+      "text": "Name a food that comes in a can.",
+      "category": "Food",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Soup", "count": 37 },
+        { "text": "Beans", "count": 18, "aliases": ["baked beans"] },
+        { "text": "Tuna", "count": 15 },
+        { "text": "Corn", "count": 10 },
+        { "text": "Vegetables", "count": 7, "aliases": ["green beans", "peas"] },
+        { "text": "Fruit", "count": 5, "aliases": ["peaches", "fruit cocktail"] },
+        { "text": "Spam", "count": 4 }
+      ]
+    },
+    {
+      "id": "q098",
+      "text": "Name something that makes a Monday morning harder.",
+      "category": "Work",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Traffic", "count": 25 },
+        { "text": "Alarm Not Going Off", "count": 18, "aliases": ["overslept", "late"] },
+        { "text": "No Coffee", "count": 16, "aliases": ["out of coffee"] },
+        { "text": "Rain", "count": 11, "aliases": ["bad weather"] },
+        { "text": "Meetings", "count": 10, "aliases": ["early meeting"] },
+        { "text": "Tired", "count": 8, "aliases": ["no sleep", "exhausted"] },
+        { "text": "Lots of Email", "count": 5, "aliases": ["emails", "full inbox"] }
+      ]
+    },
+    {
+      "id": "q099",
+      "text": "Name something people do on a cruise ship.",
+      "category": "Travel",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Eat", "count": 36, "aliases": ["buffet", "eat all day"] },
+        { "text": "Swim", "count": 17, "aliases": ["pool", "go swimming"] },
+        { "text": "Lie in the Sun", "count": 13, "aliases": ["tan", "sunbathe"] },
+        { "text": "Gamble", "count": 10, "aliases": ["casino"] },
+        { "text": "Dance", "count": 8, "aliases": ["nightclub"] },
+        { "text": "See a Show", "count": 7, "aliases": ["shows", "entertainment"] },
+        { "text": "Get Seasick", "count": 4, "aliases": ["seasick"] }
+      ]
+    },
+    {
+      "id": "q100",
+      "text": "Name something you need to go skiing.",
+      "category": "Sports",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Skis", "count": 33 },
+        { "text": "Ski Poles", "count": 15, "aliases": ["poles"] },
+        { "text": "Goggles", "count": 14 },
+        { "text": "Jacket", "count": 12, "aliases": ["coat", "ski jacket"] },
+        { "text": "Lift Ticket", "count": 10, "aliases": ["ticket", "pass"] },
+        { "text": "Boots", "count": 9, "aliases": ["ski boots"] },
+        { "text": "Gloves", "count": 5, "aliases": ["mittens"] }
+      ]
+    },
+    {
+      "id": "q101",
+      "text": "Name something people do on their birthday.",
+      "category": "Holidays",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Eat Cake", "count": 34, "aliases": ["cake", "birthday cake"] },
+        { "text": "Blow Out Candles", "count": 17, "aliases": ["candles", "make a wish"] },
+        { "text": "Open Presents", "count": 15, "aliases": ["gifts", "presents"] },
+        { "text": "Party", "count": 13, "aliases": ["have a party"] },
+        { "text": "Go Out to Eat", "count": 9, "aliases": ["dinner", "restaurant"] },
+        { "text": "Sleep In", "count": 4 }
+      ]
+    },
+    {
+      "id": "q102",
+      "text": "Name something a kid might bring to show and tell.",
+      "category": "Kids",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Toy", "count": 30, "aliases": ["toys"] },
+        { "text": "Pet", "count": 22, "aliases": ["dog", "hamster"] },
+        { "text": "Rock", "count": 11, "aliases": ["rock collection"] },
+        { "text": "Photo", "count": 9, "aliases": ["picture", "family photo"] },
+        { "text": "Trophy", "count": 8, "aliases": ["medal"] },
+        { "text": "Seashell", "count": 6, "aliases": ["shell"] },
+        { "text": "Bug", "count": 5, "aliases": ["insect", "bug jar"] }
+      ]
+    },
+    {
+      "id": "q103",
+      "text": "Name something people buy for a new puppy.",
+      "category": "Pets",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Food", "count": 30, "aliases": ["dog food"] },
+        { "text": "Toys", "count": 22, "aliases": ["chew toy", "toy", "ball"] },
+        { "text": "Leash", "count": 18, "aliases": ["collar"] },
+        { "text": "Bed", "count": 12, "aliases": ["dog bed"] },
+        { "text": "Bowls", "count": 8, "aliases": ["bowl", "food bowl"] },
+        { "text": "Treats", "count": 6 },
+        { "text": "Crate", "count": 3, "aliases": ["kennel", "cage"] }
+      ]
+    },
+    {
+      "id": "q104",
+      "text": "Name something people use coupons for.",
+      "category": "Money",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Groceries", "count": 46, "aliases": ["food"] },
+        { "text": "Pizza", "count": 13, "aliases": ["takeout", "fast food"] },
+        { "text": "Clothes", "count": 11 },
+        { "text": "Restaurants", "count": 10, "aliases": ["dining out"] },
+        { "text": "Oil Change", "count": 7 },
+        { "text": "Haircut", "count": 5 },
+        { "text": "Movies", "count": 3 }
+      ]
+    },
+    {
+      "id": "q105",
+      "text": "Name something drivers do while waiting at a red light.",
+      "category": "Cars",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Check Phone", "count": 32, "aliases": ["text", "look at phone", "phone"] },
+        { "text": "Change the Radio", "count": 17, "aliases": ["radio", "change station"] },
+        { "text": "Sing", "count": 13, "aliases": ["sing along"] },
+        { "text": "Look in Mirror", "count": 11, "aliases": ["check hair", "mirror"] },
+        { "text": "Eat", "count": 8, "aliases": ["snack"] },
+        { "text": "Pick Nose", "count": 6 },
+        { "text": "Rev Engine", "count": 3, "aliases": ["rev"] }
+      ]
+    },
+    {
+      "id": "q106",
+      "text": "Name a kind of store people lose track of time in.",
+      "category": "Shopping",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Department Store", "count": 25, "aliases": ["mall", "big box store"] },
+        { "text": "Grocery Store", "count": 20, "aliases": ["supermarket"] },
+        { "text": "Home Improvement", "count": 15, "aliases": ["hardware store"] },
+        { "text": "Bookstore", "count": 12, "aliases": ["book store"] },
+        { "text": "Warehouse Club", "count": 10, "aliases": ["bulk store", "wholesale club"] },
+        { "text": "Craft Store", "count": 8, "aliases": ["hobby store"] },
+        { "text": "Shoe Store", "count": 5 }
+      ]
+    },
+    {
+      "id": "q107",
+      "text": "Name a body part people injure playing sports.",
+      "category": "Health",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Knee", "count": 35, "aliases": ["knees", "acl"] },
+        { "text": "Ankle", "count": 24, "aliases": ["sprained ankle"] },
+        { "text": "Shoulder", "count": 12 },
+        { "text": "Back", "count": 9 },
+        { "text": "Wrist", "count": 7, "aliases": ["hand"] },
+        { "text": "Head", "count": 5, "aliases": ["concussion"] },
+        { "text": "Finger", "count": 3, "aliases": ["fingers"] }
+      ]
+    },
+    {
+      "id": "q108",
+      "text": "Name something students do when the teacher leaves the room.",
+      "category": "School",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Talk", "count": 34, "aliases": ["chat", "gossip"] },
+        { "text": "Use Phones", "count": 20, "aliases": ["phone", "text"] },
+        { "text": "Throw Things", "count": 14, "aliases": ["paper airplanes", "spitballs"] },
+        { "text": "Goof Off", "count": 12, "aliases": ["play around", "mess around"] },
+        { "text": "Copy Answers", "count": 8, "aliases": ["cheat"] },
+        { "text": "Sleep", "count": 5, "aliases": ["nap"] },
+        { "text": "Sneak Out", "count": 3, "aliases": ["walk out", "leave"] }
+      ]
+    },
+    {
+      "id": "q109",
+      "text": "Name something people do on a lazy Sunday.",
+      "category": "Weekend",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Watch TV", "count": 33, "aliases": ["tv", "watch movies"] },
+        { "text": "Sleep", "count": 26, "aliases": ["nap", "sleep in"] },
+        { "text": "Read", "count": 12, "aliases": ["read a book"] },
+        { "text": "Lounge in Pajamas", "count": 10, "aliases": ["stay in pjs", "pajamas"] },
+        { "text": "Order Takeout", "count": 8, "aliases": ["order pizza", "takeout"] },
+        { "text": "Play Video Games", "count": 6, "aliases": ["video games", "games"] }
+      ]
+    },
+    {
+      "id": "q110",
+      "text": "Name a classic romantic gesture.",
+      "category": "Romance",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Flowers", "count": 30, "aliases": ["bring flowers", "roses"] },
+        { "text": "Love Letter", "count": 17, "aliases": ["letter", "love note"] },
+        { "text": "Candlelit Dinner", "count": 15, "aliases": ["dinner", "cook dinner"] },
+        { "text": "Serenade", "count": 11, "aliases": ["sing", "song"] },
+        { "text": "Hold Hands", "count": 9, "aliases": ["holding hands"] },
+        { "text": "Breakfast in Bed", "count": 7, "aliases": ["breakfast"] },
+        { "text": "Slow Dance", "count": 5, "aliases": ["dance"] }
+      ]
+    },
+    {
+      "id": "q111",
+      "text": "Name something people stream on the internet.",
+      "category": "Technology",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Movies", "count": 34, "aliases": ["films", "movie"] },
+        { "text": "TV Shows", "count": 26, "aliases": ["shows", "series"] },
+        { "text": "Music", "count": 19, "aliases": ["songs"] },
+        { "text": "Sports", "count": 9, "aliases": ["live sports"] },
+        { "text": "Video Games", "count": 6, "aliases": ["gaming"] },
+        { "text": "Podcasts", "count": 4, "aliases": ["podcast"] }
+      ]
+    },
+    {
+      "id": "q112",
+      "text": "Name something people carry on a rainy day.",
+      "category": "Weather",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Umbrella", "count": 66 },
+        { "text": "Raincoat", "count": 18, "aliases": ["rain jacket", "poncho"] },
+        { "text": "Rain Boots", "count": 9, "aliases": ["boots", "galoshes"] },
+        { "text": "Hat", "count": 4, "aliases": ["hood"] }
+      ]
+    },
+    {
+      "id": "q113",
+      "text": "Name a type of music people play on a road trip.",
+      "category": "Music & TV",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Rock", "count": 31, "aliases": ["rock and roll", "rock n roll"] },
+        { "text": "Country", "count": 22 },
+        { "text": "Pop", "count": 17 },
+        { "text": "Hip Hop", "count": 12, "aliases": ["rap"] },
+        { "text": "Jazz", "count": 9 },
+        { "text": "Classical", "count": 5 },
+        { "text": "Blues", "count": 3 }
+      ]
+    },
+    {
+      "id": "q114",
+      "text": "Name something adults collect as a hobby.",
+      "category": "Leisure",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Stamps", "count": 30 },
+        { "text": "Coins", "count": 24 },
+        { "text": "Baseball Cards", "count": 15, "aliases": ["trading cards", "cards"] },
+        { "text": "Records", "count": 9, "aliases": ["vinyl", "albums"] },
+        { "text": "Comic Books", "count": 8, "aliases": ["comics"] },
+        { "text": "Dolls", "count": 6 },
+        { "text": "Antiques", "count": 4 }
+      ]
+    },
+    {
+      "id": "q115",
+      "text": "Name something people do during a power outage.",
+      "category": "Home",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Light Candles", "count": 41, "aliases": ["candles"] },
+        { "text": "Use a Flashlight", "count": 19, "aliases": ["flashlight"] },
+        { "text": "Go to Sleep", "count": 13, "aliases": ["sleep", "go to bed"] },
+        { "text": "Play Board Games", "count": 10, "aliases": ["play games", "cards"] },
+        { "text": "Check Phone", "count": 7, "aliases": ["phone"] },
+        { "text": "Tell Stories", "count": 4, "aliases": ["talk"] }
+      ]
+    },
+    {
+      "id": "q116",
+      "text": "Name a flavor of ice cream.",
+      "category": "Food",
+      "use": ["main", "fastMoney"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Chocolate", "count": 36 },
+        { "text": "Vanilla", "count": 31 },
+        { "text": "Strawberry", "count": 12 },
+        { "text": "Mint Chip", "count": 7, "aliases": ["mint chocolate chip", "mint"] },
+        { "text": "Cookie Dough", "count": 5 },
+        { "text": "Rocky Road", "count": 4 },
+        { "text": "Butter Pecan", "count": 3 }
+      ]
+    },
+    {
+      "id": "q117",
+      "text": "Name something people do on their lunch break.",
+      "category": "Work",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Eat", "count": 38, "aliases": ["eat lunch", "lunch"] },
+        { "text": "Run Errands", "count": 15, "aliases": ["errands", "shopping"] },
+        { "text": "Take a Walk", "count": 12, "aliases": ["walk"] },
+        { "text": "Check Phone", "count": 11, "aliases": ["phone", "social media"] },
+        { "text": "Nap", "count": 8, "aliases": ["sleep"] },
+        { "text": "Go to the Gym", "count": 6, "aliases": ["exercise", "workout"] },
+        { "text": "Read", "count": 4, "aliases": ["read a book"] }
+      ]
+    },
+    {
+      "id": "q118",
+      "text": "Name something people take pictures of on vacation.",
+      "category": "Travel",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Beach", "count": 25, "aliases": ["ocean", "sunset"] },
+        { "text": "Landmarks", "count": 20, "aliases": ["monuments", "buildings"] },
+        { "text": "Food", "count": 16, "aliases": ["meals"] },
+        { "text": "Family", "count": 14, "aliases": ["kids", "people"] },
+        { "text": "Scenery", "count": 12, "aliases": ["mountains", "views", "nature"] },
+        { "text": "Selfies", "count": 6, "aliases": ["selfie", "themselves"] },
+        { "text": "Hotel", "count": 3, "aliases": ["hotel room"] }
+      ]
+    },
+    {
+      "id": "q119",
+      "text": "Name a sport you can watch at the Olympics.",
+      "category": "Sports",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Swimming", "count": 27 },
+        { "text": "Gymnastics", "count": 24 },
+        { "text": "Track", "count": 16, "aliases": ["track and field", "running", "sprinting"] },
+        { "text": "Figure Skating", "count": 10, "aliases": ["ice skating", "skating"] },
+        { "text": "Basketball", "count": 8 },
+        { "text": "Diving", "count": 6 },
+        { "text": "Skiing", "count": 4 }
+      ]
+    },
+    {
+      "id": "q120",
+      "text": "Name something you see in a holiday parade.",
+      "category": "Holidays",
+      "use": ["main"],
+      "surveyed": 100,
+      "answers": [
+        { "text": "Floats", "count": 35, "aliases": ["float"] },
+        { "text": "Marching Band", "count": 22, "aliases": ["band"] },
+        { "text": "Balloons", "count": 15, "aliases": ["giant balloons"] },
+        { "text": "Santa Claus", "count": 10, "aliases": ["santa"] },
+        { "text": "Clowns", "count": 7, "aliases": ["clown"] },
+        { "text": "Candy Thrown", "count": 5, "aliases": ["candy"] },
+        { "text": "Horses", "count": 3 }
+      ]
+    }
+  ]
+}

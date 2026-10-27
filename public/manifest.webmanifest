@@ -1,0 +1,13 @@
+{
+  "name": "Trivial Trials",
+  "short_name": "Trivial Trials",
+  "description": "A survey-says party game for phones, tablets and the TV.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b24",
+  "theme_color": "#070b24",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

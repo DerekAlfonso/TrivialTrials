@@ -16,5 +16,5 @@
     "skipLibCheck": true,
     "types": ["node", "vite/client"]
   },
-  "include": ["src", "server", "netlify/functions", "scripts", "vite.config.ts", "dev"]
+  "include": ["src", "server", "netlify/functions", "scripts", "vite.config.ts", "vitest.config.ts", "dev"]
 }
