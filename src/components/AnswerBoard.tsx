@@ -17,7 +17,7 @@ const SIZES = {
   sm: { h: 'h-10', text: 'text-base', num: 'h-7 w-7 text-base', pts: 'w-10 text-lg', gap: 'gap-1.5' },
   md: { h: 'h-14', text: 'text-xl', num: 'h-9 w-9 text-xl', pts: 'w-14 text-2xl', gap: 'gap-2' },
   lg: { h: 'h-16 sm:h-20', text: 'text-2xl sm:text-3xl', num: 'h-11 w-11 text-2xl sm:h-14 sm:w-14 sm:text-3xl', pts: 'w-16 sm:w-20 text-3xl sm:text-4xl', gap: 'gap-2.5' },
-  xl: { h: 'h-[9vh]', text: 'text-[4.2vh]', num: 'h-[6.5vh] w-[6.5vh] text-[4.2vh]', pts: 'w-[11vh] text-[5vh]', gap: 'gap-[1.4vh]' },
+  xl: { h: 'h-[7.6vmin]', text: 'text-[4vmin]', num: 'h-[5.8vmin] w-[5.8vmin] text-[3.8vmin]', pts: 'w-[10vmin] text-[4.6vmin]', gap: 'gap-[1.2vmin]' },
 };
 
 export function AnswerBoard({ board, answers, onPick, pickable, size = 'md', fixedSlots = true }: Props) {

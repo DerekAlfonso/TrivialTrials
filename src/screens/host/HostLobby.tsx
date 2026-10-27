@@ -73,7 +73,7 @@ export function HostLobby({ g, state }: HostProps) {
 
       {/* Teams */}
       <section className="flex flex-col gap-4">
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 gap-3 min-[480px]:grid-cols-2">
           {(['A', 'B'] as TeamId[]).map((t) => (
             <TeamColumn key={t} team={t} {...{ g, state, online }} />
           ))}

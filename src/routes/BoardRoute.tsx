@@ -86,14 +86,14 @@ export function BoardRoute() {
       onDoubleClick={() => toggleFullscreen()}
       onPointerDown={soundLocked ? enableSound : undefined}
     >
-      <div className="flex min-h-0 flex-1 flex-col px-[3vw] py-[2.5vh]">
+      <div className="flex min-h-0 flex-1 flex-col px-[3vw] py-[2.5vmin]">
         {g.state ? <BoardScreen state={g.state} /> : <Logo size="xl" />}
       </div>
 
       <AnimatePresence>
         {(!idle || !fs) && (
           <motion.div
-            className="fixed top-3 right-3 z-30 flex gap-2"
+            className="fixed right-3 bottom-[calc(0.75rem+var(--safe-bottom))] z-30 flex gap-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -122,7 +122,7 @@ function Title({ children }: { children: ReactNode }) {
       key={String(children)}
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="text-center text-[4.4vh] leading-tight font-extrabold text-white drop-shadow-lg"
+      className="text-center text-[4.4vmin] leading-tight font-extrabold text-white drop-shadow-lg"
     >
       {children}
     </motion.div>
@@ -132,11 +132,11 @@ function Title({ children }: { children: ReactNode }) {
 function TeamChip({ state, team, name }: { state: GameState; team: TeamId; name: string }) {
   return (
     <div
-      className={`${team === 'A' ? 'team-a' : 'team-b'} rounded-[2vh] px-[3vh] py-[1.5vh] text-center`}
+      className={`${team === 'A' ? 'team-a' : 'team-b'} rounded-[2vmin] px-[3vmin] py-[1.5vmin] text-center`}
       style={{ background: 'color-mix(in srgb, var(--team) 30%, #070c2c)', border: '3px solid var(--team)' }}
     >
-      <div className="font-display text-[5vh] leading-none">{name}</div>
-      <div className="mt-[0.6vh] text-[2.2vh] font-bold uppercase tracking-widest" style={{ color: 'var(--team)' }}>
+      <div className="font-display text-[5vmin] leading-none">{name}</div>
+      <div className="mt-[0.6vmin] text-[2.2vmin] font-bold uppercase tracking-widest" style={{ color: 'var(--team)' }}>
         {state.teams[team].name}
       </div>
     </div>
@@ -149,24 +149,24 @@ function BoardScreen({ state }: { state: GameState }) {
   if (state.phase === 'LOBBY') {
     return (
       <div className="grid h-full grid-cols-[1fr_1.1fr] items-center gap-[4vw]">
-        <div className="flex flex-col items-center gap-[3vh]">
+        <div className="flex flex-col items-center gap-[3vmin]">
           <Logo size="xl" />
-          <div className="text-[3vh] font-semibold text-muted">Join on your phone at</div>
-          <div className="text-[4vh] font-bold">{origin.replace(/^https?:\/\//, '')}</div>
-          <div className="logo-text text-[16vh] leading-none tracking-[0.15em]">{state.code}</div>
+          <div className="text-[3vmin] font-semibold text-muted">Join on your phone at</div>
+          <div className="text-[4vmin] font-bold">{origin.replace(/^https?:\/\//, '')}</div>
+          <div className="logo-text text-[16vmin] leading-none tracking-[0.15em]">{state.code}</div>
           <QR text={`${origin}/join/${state.code}`} size={Math.round(window.innerHeight * 0.22)} />
         </div>
         <div className="grid grid-cols-2 gap-[2vw]">
           {(['A', 'B'] as TeamId[]).map((t) => (
             <div
               key={t}
-              className={`${t === 'A' ? 'team-a' : 'team-b'} panel min-h-[50vh] p-[2.5vh]`}
+              className={`${t === 'A' ? 'team-a' : 'team-b'} panel min-h-[50vmin] p-[2.5vmin]`}
               style={{ borderColor: 'var(--team)', borderWidth: 3 }}
             >
-              <div className="mb-[2vh] text-center font-display text-[4.5vh]" style={{ color: 'var(--team)' }}>
+              <div className="mb-[2vmin] text-center font-display text-[4.5vmin]" style={{ color: 'var(--team)' }}>
                 {state.teams[t].name}
               </div>
-              <div className="flex flex-col gap-[1.2vh]">
+              <div className="flex flex-col gap-[1.2vmin]">
                 <AnimatePresence>
                   {state.players
                     .filter((p) => p.team === t)
@@ -177,7 +177,7 @@ function BoardScreen({ state }: { state: GameState }) {
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0 }}
-                        className="rounded-[1.5vh] bg-white/10 px-[2vh] py-[1vh] text-[3.2vh] font-bold"
+                        className="rounded-[1.5vmin] bg-white/10 px-[2vmin] py-[1vmin] text-[3.2vmin] font-bold"
                       >
                         {p.name}
                       </motion.div>
@@ -187,7 +187,7 @@ function BoardScreen({ state }: { state: GameState }) {
             </div>
           ))}
           {state.players.some((p) => !p.team) && (
-            <div className="col-span-2 text-center text-[2.6vh] text-muted">
+            <div className="col-span-2 text-center text-[2.6vmin] text-muted">
               Waiting for a team: {state.players.filter((p) => !p.team).map((p) => p.name).join(', ')}
             </div>
           )}
@@ -201,17 +201,17 @@ function BoardScreen({ state }: { state: GameState }) {
   if (state.phase === 'GAME_OVER') {
     const w = state.winner!;
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-[4vh]">
-        <motion.div initial={{ scale: 0.3, rotate: -10 }} animate={{ scale: 1, rotate: 0 }} className="text-[20vh] leading-none">
+      <div className="flex h-full flex-col items-center justify-center gap-[4vmin]">
+        <motion.div initial={{ scale: 0.3, rotate: -10 }} animate={{ scale: 1, rotate: 0 }} className="text-[20vmin] leading-none">
           🏆
         </motion.div>
-        <div className="w-[60vw] text-[6vh]">
-          <Banner tone={w}>{state.teams[w].name} wins!</Banner>
+        <div className="w-[60vw] text-[6vmin]">
+          <Banner inherit tone={w}>{state.teams[w].name} wins!</Banner>
         </div>
         <div className="w-[70vw]">
           <Scoreboard state={state} size="xl" />
         </div>
-        {state.settings.fastMoney && <div className="font-display text-[4vh] text-gold-light">Fast Money is next…</div>}
+        {state.settings.fastMoney && <div className="font-display text-[4vmin] text-gold-light">Fast Money is next…</div>}
       </div>
     );
   }
@@ -228,14 +228,14 @@ function BoardScreen({ state }: { state: GameState }) {
     sub = (
       <div className="flex items-center justify-center gap-[3vw]">
         <TeamChip state={state} team="A" name={playerName(state, f.players.A)} />
-        <div className="font-display text-[6vh] text-gold">VS</div>
+        <div className="font-display text-[6vmin] text-gold">VS</div>
         <TeamChip state={state} team="B" name={playerName(state, f.players.B)} />
       </div>
     );
   }
 
   return (
-    <div className="flex h-full min-h-0 flex-col gap-[2vh]">
+    <div className="flex h-full min-h-0 flex-col gap-[2vmin]">
       <Scoreboard state={state} size="xl" />
       <Title>{title}</Title>
       {sub}
@@ -244,44 +244,44 @@ function BoardScreen({ state }: { state: GameState }) {
           {f.buzzes.length ? (
             <BuzzFlash state={state} />
           ) : (
-            <motion.div animate={{ scale: [1, 1.06, 1] }} transition={{ repeat: Infinity, duration: 0.9 }} className="font-display text-[5vh] text-red">
+            <motion.div animate={{ scale: [1, 1.06, 1] }} transition={{ repeat: Infinity, duration: 0.9 }} className="font-display text-[5vmin] text-red">
               Buzzers are live!
             </motion.div>
           )}
         </div>
       )}
       {phase === 'FACEOFF_JUDGING' && (
-        <div className="text-center text-[3.6vh]">
+        <div className="text-center text-[3.6vmin]">
           <BuzzFlash state={state} />
         </div>
       )}
       {phase === 'PLAY_OR_PASS' && f.winner && (
-        <div className="mx-auto text-[4.5vh]">
-          <Banner tone={f.winner}>{state.teams[f.winner].name}: play or pass?</Banner>
+        <div className="mx-auto text-[4.5vmin]">
+          <Banner inherit tone={f.winner}>{state.teams[f.winner].name}: play or pass?</Banner>
         </div>
       )}
       {phase === 'STEAL' && r.control && (
-        <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} className="mx-auto text-[5vh]">
-          <Banner tone="red">
+        <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} className="mx-auto text-[5vmin]">
+          <Banner inherit tone="red">
             {state.teams[otherTeam(r.control)].name} can steal! Captain: {playerName(state, r.stealCaptain)}
           </Banner>
         </motion.div>
       )}
       {phase === 'ROUND_END' && r.result?.team && (
-        <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} className="mx-auto text-[5vh]">
-          <Banner tone={r.result.team}>
+        <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} className="mx-auto text-[5vmin]">
+          <Banner inherit tone={r.result.team}>
             {state.teams[r.result.team].name} {r.result.stolen ? 'steals' : 'wins'} {r.result.points} points!
           </Banner>
         </motion.div>
       )}
 
-      <div className="mx-auto flex min-h-0 w-full max-w-[150vh] flex-1 flex-col justify-center">
+      <div className="mx-auto flex min-h-0 w-full max-w-[150vmin] flex-1 flex-col justify-center">
         <AnswerBoard board={r.board} size="xl" />
       </div>
       {(phase === 'ROUND_PLAY' || phase === 'STEAL') && (
         <div className="flex items-center justify-center gap-[3vw]">
           {phase === 'ROUND_PLAY' && r.control && (
-            <div className="text-[3.2vh] font-semibold text-muted">
+            <div className="text-[3.2vmin] font-semibold text-muted">
               Up now: <b className="font-display text-white">{playerName(state, r.turnOrder[r.turn])}</b>
             </div>
           )}
@@ -297,10 +297,10 @@ function BuzzFlash({ state }: { state: GameState }) {
   const first = state.phase === 'FACEOFF_JUDGING' ? f.order[f.attempt] : [...f.buzzes].sort((a, b) => a.reactionMs - b.reactionMs)[0]?.playerId;
   const buzz = f.buzzes.find((b) => b.playerId === first);
   return (
-    <motion.div key={first} initial={{ scale: 1.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="font-display text-[5vh]">
+    <motion.div key={first} initial={{ scale: 1.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="font-display text-[5vmin]">
       🔴 {playerName(state, first)}
-      {buzz && <span className="ml-[1vw] text-[3.5vh] text-gold-light">{(buzz.reactionMs / 1000).toFixed(2)}s</span>}
-      {state.phase === 'FACEOFF_JUDGING' && <span className="ml-[1vw] text-[3vh] text-muted">is answering…</span>}
+      {buzz && <span className="ml-[1vw] text-[3.5vmin] text-gold-light">{(buzz.reactionMs / 1000).toFixed(2)}s</span>}
+      {state.phase === 'FACEOFF_JUDGING' && <span className="ml-[1vw] text-[3vmin] text-muted">is answering…</span>}
     </motion.div>
   );
 }
@@ -315,43 +315,43 @@ function BoardFastMoney({ state }: { state: GameState }) {
 
   if (state.phase === 'FM_SETUP' || !fm) {
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-[4vh]">
+      <div className="flex h-full flex-col items-center justify-center gap-[4vmin]">
         <Logo size="xl" />
-        <div className="w-[60vw] text-[7vh]">
-          <Banner tone="gold">⚡ Fast Money ⚡</Banner>
+        <div className="w-[60vw] text-[7vmin]">
+          <Banner inherit tone="gold">⚡ Fast Money ⚡</Banner>
         </div>
-        <div className="text-[3.5vh] text-muted">{state.teams[state.winner!].name} is choosing two players…</div>
+        <div className="text-[3.5vmin] text-muted">{state.teams[state.winner!].name} is choosing two players…</div>
       </div>
     );
   }
   if (state.phase === 'FM_END') {
     const total = fm.totals[0] + fm.totals[1];
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-[3vh]">
-        <motion.div initial={{ scale: 0.3 }} animate={{ scale: 1 }} className="text-[18vh] leading-none">
+      <div className="flex h-full flex-col items-center justify-center gap-[3vmin]">
+        <motion.div initial={{ scale: 0.3 }} animate={{ scale: 1 }} className="text-[10vmin] leading-none">
           {fm.won ? '💰' : '😅'}
         </motion.div>
-        <div className="w-[60vw] text-[6vh]">
-          <Banner tone={fm.won ? 'gold' : 'red'}>{fm.won ? 'Fast Money winners!' : 'So close!'}</Banner>
+        <div className="w-[60vw] text-[6vmin]">
+          <Banner inherit tone={fm.won ? 'gold' : 'red'}>{fm.won ? 'Fast Money winners!' : 'So close!'}</Banner>
         </div>
-        <div className="board-font text-[16vh] leading-none text-gold-light glow-text">{total}</div>
-        <div className="w-[80vw]">
+        <div className="board-font text-[11vmin] leading-none text-gold-light glow-text">{total}</div>
+        <div className="w-[min(80vw,130vmin)]">
           <FastMoneyBoard state={state} size="xl" />
         </div>
       </div>
     );
   }
   return (
-    <div className="flex h-full flex-col gap-[2vh]">
+    <div className="flex h-full flex-col gap-[2vmin]">
       <div className="flex items-center justify-between">
-        <div className="font-display text-[5vh] text-gold">⚡ Fast Money</div>
+        <div className="font-display text-[5vmin] text-gold">⚡ Fast Money</div>
         <div className="text-center">
-          <div className="text-[2.4vh] font-bold uppercase tracking-widest text-muted">Player {p + 1}</div>
-          <div className="font-display text-[5vh]">{playerName(state, fm.players[p])}</div>
+          <div className="text-[2.4vmin] font-bold uppercase tracking-widest text-muted">Player {p + 1}</div>
+          <div className="font-display text-[5vmin]">{playerName(state, fm.players[p])}</div>
         </div>
         <div className="text-right">
-          <div className="text-[2.4vh] font-bold uppercase tracking-widest text-muted">Target</div>
-          <div className="board-font text-[6vh] leading-none">{state.settings.fmTarget}</div>
+          <div className="text-[2.4vmin] font-bold uppercase tracking-widest text-muted">Target</div>
+          <div className="board-font text-[6vmin] leading-none">{state.settings.fmTarget}</div>
         </div>
       </div>
       <div className="flex min-h-0 flex-1 items-center gap-[3vw]">
@@ -359,9 +359,9 @@ function BoardFastMoney({ state }: { state: GameState }) {
           <FastMoneyBoard state={state} size="xl" />
         </div>
         {playing && (
-          <div className="board-frame grid h-[28vh] w-[28vh] shrink-0 place-items-center !rounded-full">
+          <div className="board-frame grid h-[28vmin] w-[28vmin] shrink-0 place-items-center !rounded-full">
             <div
-              className={`board-inner board-font grid h-full w-full place-items-center !rounded-full text-[14vh] ${remaining <= 5 && fm.timerStartedAt ? 'text-red' : 'text-white'}`}
+              className={`board-inner board-font grid h-full w-full place-items-center !rounded-full text-[14vmin] ${remaining <= 5 && fm.timerStartedAt ? 'text-red' : 'text-white'}`}
             >
               {fm.timerStartedAt ? Math.ceil(remaining) : seconds}
             </div>

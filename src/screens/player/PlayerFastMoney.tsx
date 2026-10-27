@@ -149,7 +149,7 @@ function Answering({ g, state }: PlayerProps) {
         </Pop>
       )}
 
-      <div className="grid w-full max-w-md gap-1.5">
+      <div className="grid w-full max-w-md grid-cols-[minmax(0,1fr)] gap-1.5">
         {fm.questions.map((question, i) => (
           <button
             key={question.id}
@@ -202,14 +202,14 @@ export function FastMoneyBoard({ state, size = 'sm' }: { state: GameState; size?
   const fm = state.fastMoney!;
   const total = fm.totals[0] + fm.totals[1];
   const big = size === 'xl';
-  const cell = big ? 'h-[8.5vh] text-[4vh]' : 'h-10 text-base';
-  const pts = big ? 'w-[11vh] text-[5vh]' : 'w-12 text-xl';
+  const cell = big ? 'h-[7vmin] text-[3.6vmin]' : 'h-10 text-base';
+  const pts = big ? 'w-[11vmin] text-[5vmin]' : 'w-12 text-xl';
   const coverP1 = state.phase === 'FM_P2';
   return (
     <div className="board-frame">
-      <div className={`board-inner grid grid-cols-2 ${big ? 'gap-[2vh] p-[2vh]' : 'gap-2'}`}>
+      <div className={`board-inner grid grid-cols-2 ${big ? 'gap-[2vmin] p-[2vmin]' : 'gap-2'}`}>
         {[0, 1].map((p) => (
-          <div key={p} className={`flex flex-col ${big ? 'gap-[1.2vh]' : 'gap-1.5'}`}>
+          <div key={p} className={`flex flex-col ${big ? 'gap-[1.2vmin]' : 'gap-1.5'}`}>
             {fm.entries[p].map((e, i) => (
               <div key={i} className={`flex items-stretch overflow-hidden rounded-lg border-2 border-board-light/50 bg-board-dark ${cell}`}>
                 <span className="board-font flex min-w-0 flex-1 items-center truncate px-2 uppercase">
@@ -222,9 +222,9 @@ export function FastMoneyBoard({ state, size = 'sm' }: { state: GameState; size?
             ))}
           </div>
         ))}
-        <div className={`col-span-2 flex items-center justify-end gap-3 ${big ? 'pt-[1vh]' : ''}`}>
-          <span className={`font-display uppercase text-gold-light ${big ? 'text-[3.5vh]' : 'text-sm'}`}>Total</span>
-          <span className={`board-font rounded-lg bg-board-dark px-3 ${big ? 'text-[7vh]' : 'text-3xl'} ${total >= state.settings.fmTarget ? 'text-gold-light glow-text' : ''}`}>
+        <div className={`col-span-2 flex items-center justify-end gap-3 ${big ? 'pt-[1vmin]' : ''}`}>
+          <span className={`font-display uppercase text-gold-light ${big ? 'text-[3.5vmin]' : 'text-sm'}`}>Total</span>
+          <span className={`board-font rounded-lg bg-board-dark px-3 ${big ? 'text-[7vmin]' : 'text-3xl'} ${total >= state.settings.fmTarget ? 'text-gold-light glow-text' : ''}`}>
             {total}
           </span>
         </div>

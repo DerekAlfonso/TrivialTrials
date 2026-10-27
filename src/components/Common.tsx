@@ -72,7 +72,16 @@ export function Pop({ children, k, className = '' }: { children: ReactNode; k: s
   );
 }
 
-export function Banner({ children, tone = 'gold' }: { children: ReactNode; tone?: 'gold' | 'red' | 'blue' | TeamId }) {
+export function Banner({
+  children,
+  tone = 'gold',
+  inherit = false,
+}: {
+  children: ReactNode;
+  tone?: 'gold' | 'red' | 'blue' | TeamId;
+  /** Take the font size from the parent (board display). */
+  inherit?: boolean;
+}) {
   const bg = {
     gold: 'linear-gradient(180deg,#ffe58a,#f7c843 60%,#d99a12)',
     red: 'linear-gradient(180deg,#ff5b67,#e3172b 60%,#a50d1c)',
@@ -83,7 +92,7 @@ export function Banner({ children, tone = 'gold' }: { children: ReactNode; tone?
   const dark = tone === 'gold';
   return (
     <div
-      className={`rounded-2xl px-4 py-3 text-center font-display text-xl uppercase shadow-xl ${dark ? 'text-[#2a1a00]' : 'text-white'}`}
+      className={`rounded-2xl px-[0.8em] py-[0.5em] text-center font-display uppercase shadow-xl ${inherit ? 'text-[1em]' : 'text-xl'} ${dark ? 'text-[#2a1a00]' : 'text-white'}`}
       style={{ background: bg, textShadow: dark ? 'none' : '0 2px 0 rgba(0,0,0,.3)' }}
     >
       {children}

@@ -16,6 +16,9 @@ create table if not exists public.game_secrets (
   auth     jsonb not null
 );
 
+-- Hourly cleanup scans by last activity.
+create index if not exists games_updated_at_idx on public.games (updated_at);
+
 alter table public.games enable row level security;
 alter table public.game_secrets enable row level security;
 

@@ -17,8 +17,8 @@ export function HostView(props: HostProps) {
   if (state.phase === 'LOBBY') return <HostLobby {...props} />;
   return (
     <>
-      {state.phase.startsWith('FM_') ? <HostFastMoney {...props} /> : <HostRound {...props} />}
       <HostTools {...props} />
+      {state.phase.startsWith('FM_') ? <HostFastMoney {...props} /> : <HostRound {...props} />}
     </>
   );
 }

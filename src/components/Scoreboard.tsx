@@ -28,7 +28,7 @@ export function TeamScore({
   const sizes = {
     sm: { box: 'px-3 py-1.5 rounded-xl', name: 'text-[10px]', score: 'text-2xl' },
     md: { box: 'px-4 py-2 rounded-2xl', name: 'text-xs', score: 'text-4xl' },
-    xl: { box: 'px-[2.5vh] py-[1.5vh] rounded-[2vh]', name: 'text-[2.4vh]', score: 'text-[9vh]' },
+    xl: { box: 'px-[2.5vmin] py-[1.5vmin] rounded-[2vmin]', name: 'text-[2.4vmin]', score: 'text-[7.5vmin]' },
   }[size];
   return (
     <div
@@ -52,7 +52,7 @@ export function Bank({ state, size = 'md' }: { state: GameState; size?: 'sm' | '
   const cls = {
     sm: { box: 'px-3 py-1', value: 'text-2xl', label: 'text-[10px]' },
     md: { box: 'px-4 py-1.5', value: 'text-4xl', label: 'text-xs' },
-    xl: { box: 'px-[3vh] py-[1vh]', value: 'text-[8vh]', label: 'text-[2.2vh]' },
+    xl: { box: 'px-[3vmin] py-[1vmin]', value: 'text-[6.5vmin]', label: 'text-[2.2vmin]' },
   }[size];
   return (
     <div className={`board-frame !rounded-2xl !p-1 text-center`}>
@@ -82,7 +82,7 @@ export function Scoreboard({ state, size = 'md' }: { state: GameState; size?: 's
 }
 
 export function Strikes({ count, size = 'md' }: { count: number; size?: 'sm' | 'md' | 'xl' }) {
-  const cls = { sm: 'text-2xl', md: 'text-4xl', xl: 'text-[8vh]' }[size];
+  const cls = { sm: 'text-2xl', md: 'text-4xl', xl: 'text-[8vmin]' }[size];
   return (
     <div className="flex items-center justify-center gap-2" aria-label={`${count} strikes`}>
       {[0, 1, 2].map((i) => (

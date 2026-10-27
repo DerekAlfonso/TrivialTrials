@@ -4,7 +4,7 @@ import { ConnectionDot } from '../../components/Common';
 import type { TeamId } from '../../shared/types';
 import type { HostProps } from './HostView';
 
-/** Floating host toolbox: undo, score fixes, player management, and ending the game. */
+/** Host toolbar: undo, score fixes, player management, and ending the game. */
 export function HostTools({ g, state }: HostProps) {
   const [open, setOpen] = useState(false);
   const online = new Set(g.presence.map((p) => p.id));
@@ -12,20 +12,19 @@ export function HostTools({ g, state }: HostProps) {
 
   return (
     <>
-      <div className="fixed right-3 bottom-[calc(0.75rem+var(--safe-bottom))] z-30 flex gap-2">
+      <div className="mb-3 flex justify-end gap-2">
         <button
-          className="btn btn-ghost !min-h-12 bg-stage/90 backdrop-blur"
+          className="btn btn-ghost !min-h-10 !py-2 text-sm"
           onClick={() => g.act({ type: 'undo' })}
           disabled={!canUndo || g.pending}
           title="Undo last judgment"
         >
           ↶ Undo
         </button>
-        <button className="btn btn-ghost !min-h-12 bg-stage/90 backdrop-blur" onClick={() => setOpen(true)} aria-label="Host tools">
+        <button className="btn btn-ghost !min-h-10 !py-2 text-sm" onClick={() => setOpen(true)} aria-label="Host tools">
           ⚙️
         </button>
       </div>
-      <div className="h-16" />
       <AnimatePresence>
         {open && (
           <motion.div

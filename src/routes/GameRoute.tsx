@@ -43,7 +43,7 @@ export function GameRoute() {
           <LogoInline />
         </Link>
         <div className="flex min-w-0 flex-1 items-center justify-end gap-3 text-sm">
-          <span className="truncate font-semibold text-muted">
+          <span className={`truncate font-semibold text-muted ${identity.role === 'host' ? 'hidden sm:inline' : ''}`}>
             {identity.role === 'host' ? 'Host' : me?.name}
           </span>
           <span className="board-font rounded-lg bg-white/10 px-2 py-0.5 text-lg tracking-widest text-gold-light">{code}</span>
